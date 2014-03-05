@@ -1,0 +1,13 @@
+Sound Ruler - Tuning Curve Filter
+
+Inverted V filter
+
+	At 2.4 kHz, the filter reduces the energy by 
+18 dB (1/8 original amplitude).
+
+@@========(this line should start with @@==)==============
+800,0
+1600,9
+2400,18
+3200,9
+4000,0

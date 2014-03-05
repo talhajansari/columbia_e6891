@@ -1,0 +1,15 @@
+Sound Ruler - Tuning Curve Filter
+
+U filter
+
+	Below 800 Hz and above 4 kHz, the filter reduces
+the amplitude by 18 dB (1/8 original amplitude). 
+	This example shows how the filter building 
+algorithm tends to round up the filter function. Independent
+of the filter order, if a V filter is specified with only 3
+points, a U shaped filter is produced instead.
+
+@@========(this line should start with @@==)==============
+800,18
+2400,0
+4000,18

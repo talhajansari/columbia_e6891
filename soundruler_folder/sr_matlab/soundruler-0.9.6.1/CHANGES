@@ -1,0 +1,170 @@
+--------------------------------------------------------------------------------
+version 0.961 - 2007-04-02
+     - adjusted the appearance of the GUIs in unix operating systems. 
+     - fixed issues with printing, browser loading and sound in unix versions.
+     - completed the OSX version. 
+     - automated building of the various packages. 
+
+--------------------------------------------------------------------------------
+version 0.960 - 2007-03-10 
+     General
+        - added quick and easy manual measurement of sounds.
+        - added one-click generation of any of five types of plots of any piece
+             of sound on the screen.
+	- added zooming into the oscillogram and the spectrogram.
+        - added popup-menu functionality to the mouse right-click, allowing for
+             quick access of unlimited features.
+	- added a log screen, where actions and results are documented during
+             the analysis.
+        - moved the previous right-click functionality to shift + left-click.
+        - automatic loading of user-defined web browser in Linux to display the
+             documentation.
+
+     Installation
+	- migrated to the NSIS Installer to package the Windows binaries.
+	- the math and graphics libraries are now installed in the same
+             directory as SoundRuler eliminating the need to set the path
+             variable in Windows.
+
+     Audio
+        - added adjustment and conversion of sampling rate to display correctly
+             sounds stored at modified rates, such as with time expansion or 
+             frequency division (bat detectors).
+	- added one-click custom playback at user-determined speed, duration,
+             pitch and sampling rate to allow for listening of any recordings 
+             using simple computer sound cards and speakers.
+        - added automatic recognition of PCTape .wav files.
+        - great improvement to sound in Linux using Sox.
+
+     Graphing
+        - added color spectrograms with the capability of copying, saving and
+             printing the plots in color. The color scheme is user-defined. 
+        - added autocorrelation and cepstrum plots for the analysis of amplitude
+             modulation and harmonic structure.
+        - added user control over contrast and window function in
+             spectrogram plots.
+        - high resolution graphs can now be saved in various formats. The 
+             resolution is defined by the user.
+        - improvements to the quality of the graphical output and 
+             addition of the .eps format.
+
+     Printing
+	- new enhanced interface, with storage of preferred settings.
+
+     Screen Design
+	- added automated detection of screen size and removed the annoying
+             dialog window at startup. The user can still force a format.
+        - reduced the number of controls on the screen and placed them in more
+             intuitive positions.
+
+     Settings
+	- added standardized settings windows that recover default values.
+        - standardized the format of settings files for adding comments.
+        - added reading of old settings files.
+        - added conversion tool for old settings files.
+
+     Filters
+	- added plot of filter profile to facilitate defining bandpass filters.
+
+     Data saving and structure
+        - added setting of field separator for .csv files to resolve 
+             internationalization issues with spreadsheets and databases.
+        - updated the ID fields to alphanumeric, to prevent spreadsheets from
+             treating them as numbers.
+        - changed the names of fields that were repeated when saved as one
+             table.
+        - added a field with the version of SoundRuler.
+        - fixed rounding in frequency resolution of spectrogram. Frequencies
+             are now reported half of the resolution limit higher than before.
+	- debugged calculation of crest factor and tuning fields.
+
+     Code structure
+	- unified the code, with scheme to adjust to various platforms and
+             versions.
+        - added automated compilation for each platform.
+        - added extended code documentation scheme. Documentation itself is
+             still to be written.
+        - modularized the code with global variable management functions.
+        - moved the code to the SVN version management system.
+
+--------------------------------------------------------------------------------
+version 0.941 - 2004-08-06 
+     Added templates for exporting graphs.
+     Improved the Cross Correlation module:
+         - ability to play and plot sounds
+         - load calls from file
+         - load whole folder with files for CCA
+         - define extra sound or not around the call
+         - fixed bugs in CCA of oscillograms and filtering
+     Added control over playback rate, so that fast and high frequency sounds
+        can be heard at slower tempo and lower frequency.
+     Changed the method of compilation of the executable, turning it simpler,
+        smaller and faster.
+     Improved the precision of the measurements of energy in the harmonics.
+     Minor bug fixes.
+
+--------------------------------------------------------------------------------
+version 0.940 - 2004-03-16
+     Added documentation in Portuguese.
+     Added extensive graph editing and template creation for batch graphing.
+     Redesigned GUI and icon for Linux.
+     Makefile and RPM packaging for Linux.
+     Simplified and more powerful manual addition or deletion of automatically
+        recognized pulses.
+     Added the ability of recognizing pulses under reduced and variable 
+        amplitude modulation.
+     Added the possibility of restricting dominant frequency tracking to a 
+        single harmonic when the dominant harmonic varies along the call.
+     Minor bug fixes.
+
+--------------------------------------------------------------------------------
+version 0.936 - 2003-06-10
+     Spectrogram figure exports: fixed problem of incorrect labels on the Y
+        axis.
+     Amplitude calibration: fixed problem and implemented RMS and Peak
+        calibration.
+     Minor bug fixes.
+
+--------------------------------------------------------------------------------
+version 0.935 - 2003-04-09
+     Fixed problem with stereo files, that caused error in cross correlation 
+        analyses.
+     Improved the user interface for cross correlation. Calculation effort is 
+        displayed before the analysis starts. It is monitored on the status
+        bar during the analysis and the calculation time is reported in the
+        result file.
+     Minor bug fixes.
+
+--------------------------------------------------------------------------------
+version 0.934 - 2003-04-06
+     Improved the tuning curve filter with bug fixes and more didactic filter
+        and help files.
+     Minor bug fixes.
+
+--------------------------------------------------------------------------------
+version 0.933 - 2003-04-01
+     Separated unix from windows scripts, mostly to make figures display 
+        correctly.
+     Improved the cross correlation algorithm and implemented 2D spectrogram
+        CCA.
+     Minor bug fixes.
+
+--------------------------------------------------------------------------------
+version 0.932 - 2003-03-28
+     First release of the Unix binaries.
+     Fixed the resource leak in the Windows binaries.
+     Fixed a path problem in the Windows binaries.
+     Minor bug fixes.
+
+--------------------------------------------------------------------------------
+version 0.931 - 2003-03-25
+     First release at SourceForge. Matlab m-files and Windows binaries.
+     Extensive changes for adjustment to the restrictions of the matlab 
+        compiler.
+     Incorporated the Tuning Curve filters and Amplitude Calibration as tools
+        in SoundRuler.
+     Added the Textpad, SoundMath and CCA.
+
+--------------------------------------------------------------------------------
+version 0.930 and back... 
+     M-file versions for internal use.

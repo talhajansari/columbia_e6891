@@ -1,0 +1,13 @@
+Sound Ruler - Tuning Curve Filter
+
+Gradually increasing slope 
+
+	The filter passes exponentially less energy at
+lower frequencies.
+
+@@========(this line should start with @@==)==============
+800,24
+1600,18
+2400,12
+3200,6
+4000,0

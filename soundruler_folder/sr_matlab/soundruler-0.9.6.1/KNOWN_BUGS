@@ -1,0 +1,21 @@
+The following are known unresolved problems in SoundRuler for which we 
+currently do not have a solution.
+
+--------------------------------------------------------------------------------
+
+Defaults cannot be canceled
+
+   If the user clicks Defaults in a options window, the default values for that
+window are loaded. If the user then clicks Cancel instead of OK to close the 
+window, the default values are not canceled.
+   This error involves changing a lot of code and we did not notice it in time
+to fix it for this release. It is trivial and shold be fixed soon though.
+
+--------------------------------------------------------------------------------
+
+No scrolling bar in TextPad
+
+   The graphics libraries of Matlab 13 do not provide such feature. We might be
+able to get it as a C .dll at some point.
+
+--------------------------------------------------------------------------------

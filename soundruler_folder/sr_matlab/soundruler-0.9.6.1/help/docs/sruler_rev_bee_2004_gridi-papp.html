@@ -1,0 +1,346 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=windows-1252">
+	<TITLE></TITLE>
+	<META NAME="GENERATOR" CONTENT="OpenOffice.org 1.1  (Win32)">
+	<META NAME="CREATED" CONTENT="20040623;15464000">
+	<META NAME="CHANGEDBY" CONTENT="Marcos Gridi-Pappq">
+	<META NAME="CHANGED" CONTENT="20040705;22125315">
+	<STYLE>
+	<!--
+		@page { size: 8.5in 11in; margin-left: 1.25in; margin-right: 1.25in; margin-top: 1in; margin-bottom: 1in }
+		P { margin-bottom: 0.08in }
+		TD P { margin-bottom: 0.08in }
+		TH P { margin-bottom: 0.08in; font-style: italic }
+	-->
+	</STYLE>
+</HEAD>
+<BODY LANG="en-US" DIR="LTR" bgcolor="#FFFFFF">
+<DIV TYPE=HEADER> 
+  <P STYLE="margin-bottom: 0.2in"><FONT FACE="Times New Roman, serif"><FONT SIZE=2>July<a name="top"></a> 
+    2004, http://soundruler.sourceforge.net Gridi-Papp. Additions to review of 
+    SoundRuler.</FONT></FONT></P>
+</DIV>
+<MULTICOL ID="Section1" DIR="LTR" COLS=2 GUTTER=19> 
+<P STYLE="margin-bottom: 0in"><FONT FACE="Times New Roman, serif"><FONT SIZE=3><B>Additions 
+  and updates to Dr. Mark Bee's review of SoundRuler 0.936</B></FONT></FONT></P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Times New Roman, serif"><FONT SIZE=2>Marcos 
+  Gridi-Papp</FONT></FONT></P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Times New Roman, serif"><FONT SIZE=2>E-mail: 
+  mgpapp@users.sourceforge.net</FONT></FONT></P>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Times New Roman, serif"><FONT SIZE=2>Dept. 
+  de Zoologia, Universidade Estadual Paulista (UNESP) Av. 24A 1515 - Cx.P. 199, 
+  CEP 13506-900 Rio Claro &ndash; SP, Brazil</FONT></FONT></P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Times New Roman, serif"><FONT SIZE=2><B>Abstract</B></FONT></FONT></P>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Times New Roman, serif"><FONT SIZE=2>	
+  SoundRuler is a free program for acoustical analysis that was recently reviewed 
+  by Dr. Mark Bee in the journal Bioacoustics. The review describes the program 
+  in detail, indicates its main strengths and weaknesses, and tests its precision 
+  of measurement. This article adds to and updates the review to the latest version 
+  of the program (0.9.4). Besides the program, SoundRuler is a long term project 
+  that aims at producing an open toolbox of example code for applications in bioacoustics. 
+  One main interest is the identification and coding of mechanisms of sound detection, 
+  recognition and measurement. Past and current development focused on measurement 
+  capabilities. The next stage should emphasize the analysis of the measurements. 
+  The enhancement of automatic and interactive processes of sound measurement 
+  such as the ones offered by SoundRuler should provide good alternatives to procedures 
+  that are affected by subjectivity. SoundRuler also has modules and documentation 
+  for use as a teaching tool and it has been widely used in courses on Bioacoustics 
+  and Animal Behavior. </FONT></FONT> </P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Times New Roman, serif"><FONT SIZE=2><B>Contents</B></FONT></FONT></P>
+<P STYLE="margin-bottom: 0in"><b><font face="Times New Roman, serif" size="2"><font face="Times New Roman, Times, serif">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></font></b><font face="Times New Roman, Times, serif" size="2"><a href="#intro">Introduction</a><br>
+  <b><font face="Times New Roman, serif" size="2"><font face="Times New Roman, Times, serif">
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></font></b><a href="#project">The   project</a><br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#toolbox">SoundRuler as a toolbox</a><br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#teaching">Teaching</a><br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#stats">Usage statistics</a><br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#navigation">Navigation of SoundRuler</a><br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#graph">Graph editing</a><br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#manual">Manual tools</a><br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#recognition">Call recognition</a><br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#signalnoise">Signal, noise and 
+  precision of measurement</a><br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#credibility">Credibility</a><br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#stability">Stability</a><br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#future">Future plans for development</a><br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#ref">References</a></font><br>
+</P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Times New Roman, serif"><FONT SIZE=2><B>Introduction<a name="intro"></a></B></FONT></FONT></P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Times New Roman, serif"><FONT SIZE=2>	
+  SoundRuler is a free tool for acoustical analysis, graphing and teaching that 
+  recently became available on the internet and is growing quickly in popularity 
+  (Gridi-Papp 2003). It interactively recognizes and measures 35 temporal and 
+  spectral properties of each sound in a file. It also features several measurement, 
+  graphing and didactic modules.</FONT></FONT></P>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Times New Roman, serif"><FONT SIZE=2>	
+  Bioacoustics, the International Journal of Animal Sound and its Recording, recently 
+  published a review of SoundRuler by Dr. Mark Bee, from the Institute for Biology 
+  of the Carl von Ossietzky Universit&auml;t in Oldemburg, Germany (Bee 2004). 
+  The review starts by depicting the program's license, development, platforms 
+  and documentation. It then describes SoundRuler's main features, identifying 
+  its strengths and weaknesses. The author then does an experimental evaluation 
+  of SoundRuler's interactive analysis procedures, and ends by providing general 
+  recommendations to the users.</FONT></FONT></P>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Times New Roman, serif"><FONT SIZE=2>	
+  Bee's (2004) review is an invaluable resource for people interested in using 
+  SoundRuler for research, as it provides a very complete view of the program 
+  from a perspective that is independent of that of the developers. It does a 
+  superb work at revealing features that are unique to SoundRuler and that can 
+  speed up and improve the objectivity of the analysis, and also warning about 
+  weaknesses that might cause reduction in speed or precision of the analysis.</FONT></FONT></P>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Times New Roman, serif"><FONT SIZE=2>	
+  This article aims at complementing Bee's review with comments by the developer 
+  and with updates from the latest version of SoundRuler (0.940).</FONT></FONT></P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Times New Roman, serif"><FONT SIZE=2><B>The 
+  project<a name="project"></a></B></FONT></FONT></P>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Times New Roman, serif"><FONT SIZE=2>	
+  Besides being a program for bioacoustics, SoundRuler is also a long term project, 
+  with the aim of producing an open, versatile and free tool box for bioacoustics. 
+  In the field of automatic analysis, for example, the aim is to identify the 
+  criteria that humans and other animals use when recognizing and measuring sounds, 
+  then to incorporate such criteria as facultative algorithms in the program to 
+  allow for quick and objective measurement. The process of identifying the criteria 
+  and building efficient algorithms can help to appropriately formulate questions 
+  and test hypothesis about sound recognition and discrimination by animals in 
+  several contexts.</FONT></FONT></P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Times New Roman, serif"><FONT SIZE=2><B>SoundRuler 
+  as a toolbox<a name="toolbox"></a></B></FONT></FONT></P>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Times New Roman, serif"><FONT SIZE=2>	
+  Writing a little program to implement a new idea for measurement in bioacoustics 
+  is frequently not trivial. One has to immediately deal with sound file input 
+  and output in addition to text, produce graphs, frequently with Fourier transforms, 
+  deal with allocation of memory and actually play the sounds. This causes many 
+  good ideas to be put aside untested, for lack of time.</FONT></FONT></P>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Times New Roman, serif"><FONT SIZE=2>	
+  SoundRuler, as a toolbox, offers a basic working structure for a wide set of 
+  procedures that can greatly facilitate the implementation and testing of new 
+  methods involving acoustical analysis. About 75% of the development time has 
+  been placed in visual features, user interface and documentation. The implementation 
+  of new analysis is now greatly facilitated by the body of acoustics code that 
+  is already available in the program to be reused or adapted. The code can be 
+  run and modified in Matlab or Octave (without the GUI) as a set of scripts for 
+  quick development.</FONT></FONT></P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Times New Roman, serif"><FONT SIZE=2><B>Teaching<a name="teaching"></a></B></FONT></FONT></P>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Times New Roman, serif"><FONT SIZE=2>	
+  One of the most immediate uses that SoundRuler has received has been in courses 
+  of Bioacoustics and Animal Behavior. As the license is free, the program can 
+  be used in computer labs with any number of machines at no cost. It can also 
+  be installed in the students' personal computers for homework and studying for 
+  exams. SoundRuler has a fairly extensive and illustrated documentation in English 
+  and Portuguese, with guides, examples, explanations of how it works and frequently 
+  asked questions. The next versions should extend the documentation including 
+  bibliography and activities tailored to use in courses. SoundRuler also includes 
+  didactic modules such as SoundMath, which allows the students to explore the 
+  mathematical relations among acoustic variables in a hypothetic scenario. Such 
+  module is being expanded with the inclusion of visual and auditive tools and 
+  with an increased variety of scenarios.</FONT></FONT></P>
+<P STYLE="margin-bottom: 0in; font-weight: medium"><BR>
+</P>
+<P STYLE="margin-bottom: 0in; font-weight: medium"><BR>
+</P>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Times New Roman, serif"><FONT SIZE=2><B>Usage 
+  statistics<a name="stats"></a></B></FONT></FONT></P>
+<P STYLE="margin-bottom: 0in"><FONT SIZE=2><FONT FACE="Times New Roman, serif"><SPAN STYLE="font-weight: medium">	
+  Since its first release in March 2004, SoundRuler received 20,348 visits to 
+  its website at SourceForge and it was downloaded 3,489 times. Registered users 
+  are mostly researchers and teachers at academic institutions in North, Central 
+  and South America, Europe, Oceania and Africa.</SPAN> Researchers are using 
+  it to study the sounds of mammals, birds, frogs, insects and even machines and 
+  to teach Animal Communication and Bioacoustics.</FONT></FONT></P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Times New Roman, serif"><FONT SIZE=2><B>Navigation 
+  of sound files<a name="navigation"></a></B></FONT></FONT></P>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Times New Roman, serif"><FONT SIZE=2>	
+  Bee (2004) points out that it would be nice to be able to &ldquo;freely scroll 
+  to any place across the file&rdquo;, instead of navigating in sections. Such 
+  improvement is perfectly feasible and should be included in the next releases.</FONT></FONT></P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Times New Roman, serif"><FONT SIZE=2><B>Graph 
+  editing<a name="graph"></a></B></FONT></FONT></P>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Times New Roman, serif"><FONT SIZE=2>	
+  The reviewer asks for more editing options and &ldquo;drag and drop&rdquo; plot 
+  editing. The latest release of SoundRuler (0.940) addresses the first request, 
+  adding a large number of controls for editing plots. Future releases should 
+  add more options and smarter controls for quick editing. The &ldquo;drag and 
+  drop&rdquo; feature actually depends on the development of Matlab Compiler's 
+  (Mathworks, Inc.) graphical libraries, which SoundRuler uses. It is already 
+  incorporated into the main Matlab program and should be available in the compiler's 
+  libraries in the next version of Matlab. When it is released and SoundRuler's 
+  code is migrated to the new version of Matlab, then &ldquo;drag and drop&rdquo; 
+  should become available in SoundRuler. </FONT></FONT> </P>
+<P STYLE="margin-bottom: 0in; font-weight: medium"><BR>
+</P>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Times New Roman, serif"><FONT SIZE=2><B>Manual 
+  tools<a name="manual"></a></B></FONT></FONT></P>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Times New Roman, serif"><FONT SIZE=2>	
+  With the initial emphasis on interactive analysis of repetitive sounds, some 
+  obvious features for manual examination and measurement were not included in 
+  the program. The latest release of SoundRuler (0.940) improved the manual control 
+  on how the program recognizes and delineates pulses, but a whole new set of 
+  features for manual analysis should be implemented soon. It should include two-click 
+  calculation of differences in time, frequency and amplitude, one-click generation 
+  of power spectra for any point in the file, comparison of power spectra, and 
+  more control over mouse logging.</FONT></FONT></P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Times New Roman, serif"><FONT SIZE=2><B>Call 
+  recognition<a name="recognition"></a></B></FONT></FONT></P>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Times New Roman, serif"><FONT SIZE=2><SPAN STYLE="font-weight: medium">	
+  The reviewer obtained effective and precise recognition of the calls of the 
+  European treefrog <I>Hyla arborea </I><SPAN STYLE="font-style: normal">(Hylidae) 
+  but had difficulties with setting automatic recognition for the calls of the 
+  North American bullfrog </SPAN><I>Rana catesbeiana</I><SPAN STYLE="font-style: normal"> 
+  (Ranidae). The structure of the calls produced by the second species requires 
+  higher levels of complexity from the recognition algorithm to efficiently process 
+  natural recordings. Good results can be reached with SoundRuler for these calls 
+  with the new detection features introduced in the latest release (0.9.4), after 
+  the review. The implementation and documentation of the sound detection algorithms 
+  still need to be improved, however, both to make more complex structures measurable 
+  and to make the usage intuitive.</SPAN></SPAN></FONT></FONT></P>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Times New Roman, serif"><FONT SIZE=2>	
+  Being able to precisely recognize complex acoustic structures in field recordings 
+  is a feature that might require endless development, as more difficult tasks 
+  can always be devised. As recognition becomes more difficult, the recognition 
+  algorithm tends to become more complex. For the program to be usable, complex 
+  algorithms require careful documentation and accessory tools to help users to 
+  reach the best settings. SoundRuler has become useful for a wide range of natural 
+  sounds and types of analysis, and it should keep improving its precision and 
+  general applicability for the recognition of sounds.</FONT></FONT></P>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Times New Roman, serif"><FONT SIZE=2>	
+  The digitized sound is a time series of voltage measurements. The computer has 
+  access to all the information that it displays for the user on the screen, but 
+  with higher precision and speed than the user. It is, therefore, a matter of 
+  developing the right code to reach superior call recognition to what humans 
+  can do visually. SoundRuler has open code and it is developed as a script to 
+  make development accessible to most researchers, so that the code can quickly 
+  evolve to its best.</FONT></FONT></P>
+<P STYLE="margin-bottom: 0in; font-weight: medium"><BR>
+</P>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Times New Roman, serif"><FONT SIZE=2><B>Signal, 
+  noise and precision of measurement<a name="signalnoise"></a></B></FONT></FONT></P>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Times New Roman, serif"><FONT SIZE=2>	
+  Bee (2004) elegantly evaluated the precision of the measurements taken with 
+  SoundRuler, by generating artificial frog calls and measuring them with the 
+  program. When the calls were embedded with the noise of conspecifics, the precision 
+  of the temporal measurements was lower and the variance was higher than what 
+  one might hope to obtain. Those numbers could be improved to a certain degree 
+  with refinements of the measurement code. But to some extent, they are the result 
+  of masking the calls with a noise that is very difficult to deal with: a chorus 
+  of conspecific calls. </FONT></FONT> </P>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Times New Roman, serif"><FONT SIZE=2>	
+  Sounds produced by conspecific individuals usually have similar temporal and 
+  spectral structure. When they form a chorus in the background, they add overlapping 
+  energy to the focal sound, distorting its amplitude envelope. Sounds overlapping 
+  with the edges of the focal call will distort its duration measurements, while 
+  sounds that are completely overlapped by the focal call will interact with its 
+  waveform, altering its peak and RMS amplitude. When humans analyze oscillograms 
+  visually, they tend to observe the smoothness of the amplitude decay at the 
+  edges of isolated sounds, and use that standard shape to decide &ldquo;where 
+  to cut&rdquo; the edges of calls overlapped by noise. This process is frequently 
+  unconscious and gives the person an impression of higher precision in human-made 
+  measurements. The problem is that when the edges are hidden in noise that can 
+  not be filtered out, it is unknown what their shape would have been in isolation. 
+  If one assumes repeatedly that the edges have the shape found in an ideal call, 
+  the errors in the estimates will bias the means and alter the variance of the 
+  measurements. </FONT></FONT> </P>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Times New Roman, serif"><FONT SIZE=2>	
+  When automatic or interactive analysis of noisy recordings do not produce the 
+  precision that one wants, it might be because the algorithms are incorrect or 
+  too simplistic, in which case the software should be improved or replaced. Analyzing 
+  the same calls manually should introduce subjective decisions about the edges 
+  of the calls, which can produce biased data and a false impression of precision. 
+  Solutions to the problem might be reached by obtaining cleaner recordings, or 
+  by restricting the analysis to the portion of the calls that contain amplitude 
+  higher than 10% or 50% of the peak (see Littlejohn 2001).</FONT></FONT></P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Times New Roman, serif"><FONT SIZE=2><B>Credibility<a name="credibility"></a></B></FONT></FONT></P>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Times New Roman, serif"><FONT SIZE=2>	
+  As most open code programs, SoundRuler is distributed with no guarantees of 
+  any kind (http://www.gnu.org). This is a necessary condition for it to be distributed 
+  freely. The developers do the initial testing of all new procedures, but the 
+  large number of end users test it under an uncountable number of situations, 
+  and send bug reports to the development team. Open code projects tend to openly 
+  document bugs and promptly produce new releases with the fix. This process has 
+  allowed several types of open software (web servers, databases, encryption) 
+  to become leaders in their market and be used in mission-critical applications.</FONT></FONT></P>
+<P STYLE="margin-bottom: 0in; font-weight: medium"><BR>
+</P>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Times New Roman, serif"><FONT SIZE=2><B>Stability<a name="stability"></a></B></FONT></FONT></P>
+<P STYLE="margin-bottom: 0in; font-weight: medium"><FONT FACE="Times New Roman, serif"><FONT SIZE=2>	
+  The developers and testers have had a very hard time producing program or machine 
+  crashes with SoundRuler in any of the platforms. This is mostly due to the highly 
+  tested foundation provided by Matlab's mathematical and graphic libraries, at 
+  the core of SoundRuler. The review by Bee is our second report of repeated program 
+  crashes. While becoming familiarized with a new feature, users can produce situations 
+  that are unlikely to be encountered during normal analysis. Bugs that appear 
+  in those conditions are difficult to eliminate because they are rarely reported.</FONT></FONT></P>
+<P STYLE="margin-bottom: 0in; font-weight: medium"><FONT FACE="Times New Roman, serif"><FONT SIZE=2>	
+  Feedback on any crashes is very important for the development of open software. 
+  Even if the user can not remember the exact procedure under which it happened, 
+  the output in the message screen (the black screen that opens at the beginning) 
+  might identify the error in the code. More information on how to report a bug 
+  can be found in the program's documentation.</FONT></FONT></P>
+<P STYLE="margin-bottom: 0in; font-weight: medium"><BR>
+</P>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Times New Roman, serif"><FONT SIZE=2><B>Future 
+  plans for development<a name="future"></a></B></FONT></FONT></P>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Times New Roman, serif"><FONT SIZE=2>	
+  In the last months, development of SoundRuler has been focused in releasing 
+  Linux and Mac versions. This phase is almost completed, and general feature 
+  development should be resumed soon, addressing the points described earlier 
+  in this article. In the next months, SoundRuler should receive many modifications 
+  with the main goal of making it a good tool for measuring sounds. The main focus 
+  should then change to making SoundRuler a good tool for detailed analysis of 
+  the data that it currently produces. As a scientific toolbox, the development 
+  of new analyses and didactic modules will follow the requirements of research 
+  and teaching.</FONT></FONT></P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-bottom: 0in"><FONT FACE="Times New Roman, serif"><FONT SIZE=2><B>References<a name="ref"></a></B></FONT></FONT></P>
+<P STYLE="margin-bottom: 0in; font-style: normal; font-weight: medium"> <BR>
+</P>
+<P STYLE="margin-left: 0.3in; text-indent: -0.3in; margin-bottom: 0in; font-style: normal; font-weight: medium"> 
+  <FONT FACE="Times New Roman, serif"><FONT SIZE=2>Bee, M. A. 2004. Sound Ruler 
+  acoustical analysis: a free, open code, multi-platform sound analysis and graphing 
+  package. Bioacoustics 14: 171-178.</FONT></FONT></P>
+<P STYLE="margin-left: 0.3in; text-indent: -0.3in; margin-bottom: 0in; font-style: normal; font-weight: medium"> 
+  <FONT FACE="Times New Roman, serif"><FONT SIZE=2>Gridi-Papp, M. 2003. Sound 
+  Ruler, acoustic analysis and graphing. SourceForge. http://soundruler.sourceforge.net.</FONT></FONT></P>
+<P STYLE="margin-left: 0.3in; text-indent: -0.3in; margin-bottom: 0in"> <FONT FACE="Times New Roman, serif"><FONT SIZE=2>Littlejohn, 
+  M. J. 2001. Patterns of differentiation in temporal properties of acoustic signals 
+  in anurans. In: M. Ryan (ed.). Anuran communication. Smithsonian Institution 
+  Press, Washington.</FONT></FONT></P>
+<P STYLE="margin-left: 0.3in; text-indent: -0.3in; margin-bottom: 0in">&nbsp;</P>
+<P STYLE="margin-left: 0.3in; text-indent: -0.3in; margin-bottom: 0in"><font face="Times New Roman, serif" size="2"><a href="#top">Back 
+  to Top</a></font> </P>
+</MULTICOL> 
+<DIV TYPE=FOOTER>
+	
+  <P ALIGN=RIGHT STYLE="margin-top: 0.2in; margin-bottom: 0in"><SDFIELD TYPE=PAGE SUBTYPE=RANDOM FORMAT=PAGE></SDFIELD></P>
+</DIV>
+</BODY>
+</HTML>

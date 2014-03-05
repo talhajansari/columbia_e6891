@@ -1,0 +1,17 @@
+===========  SOUND RULER ===================================================
+
+   Where are the sources?
+
+   SoundRuler is written as a collection of m-files, which are developed
+      and can be used in (Matlab, Octave, Scilab, FreeMat, etc).
+   The sources are the script files provided in the package:
+      soundruler-0.9.x.x.scripts.zip
+   The m-file code is converted automatically to C by the Matlab Compiler.
+   The machine generated C code is difficult to read and not intended for
+      editing, and all development is done on the .m files. The C code is
+      available, however, upon email request <mgpapp@users.sourceforge.net>.
+   The compiled SoundRuler code depends on the proprietary Matlab libraries,
+      which are not open and have to be distributed as binaries.
+
+----------------------------------------------------------------------------
+2007-03-08
