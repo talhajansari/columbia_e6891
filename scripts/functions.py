@@ -5,6 +5,7 @@
 # import packages
 import numpy as np
 import os
+import scipy as sp
 
 debug = False
 
@@ -44,6 +45,11 @@ def dataCleanup(rawData, rawLabels, pathToSoundfiles=''):
 		soundfile_size = os.stat(filename).st_size
 		rawData[i].append(soundfile_size)
 
+		# 2. Ignore soundfiles with sizes larger than 4000000 bytes (4MB)
+		if (soundfile_size > 4000000):
+			rawData.pop(i)
+
+		# Last
 	
 	rawLabels.append('size')
 	return rawData, rawLabels
@@ -57,7 +63,7 @@ spreadsheetName = 'ML_Order_30012802014_Mar_11_17_57_44.csv'
 pathToSoundfiles='../bird_sounds_data/'
 
 rawData, rawLabels = csvToList(spreadsheetName, dropValues=dropValues, ignoreFirstRow=True, debug=debug)
-rawData, rawLabels = dataCleanup(rawData, rawLabels, pathToSoundfiles)
+cleanData, cleanLabels = dataCleanup(rawData, rawLabels, pathToSoundfiles)
 
 
 print(rawLabels)
