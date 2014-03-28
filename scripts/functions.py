@@ -6,8 +6,9 @@
 import numpy as np
 import os
 import scipy as sp
+import wave
 
-debug = False
+debug = True
 
 
 # Load and make the soundfiles name and info dataset
@@ -36,8 +37,15 @@ def dataCleanup(rawData, rawLabels, pathToSoundfiles=''):
 	print(N)
 	post_append = '_44k.wav'
 
+	if (debug)
+		print(rawData[219])
+
 	for i in range(N):
+		if (debug)
+			print(i)
 		catalog = str(rawData[i][1])
+		if (debug)
+			print(catalog)
 		filename = pathToSoundfiles + catalog + post_append
 
 		# Do something with the files now
@@ -46,10 +54,11 @@ def dataCleanup(rawData, rawLabels, pathToSoundfiles=''):
 		rawData[i].append(soundfile_size)
 
 		# 2. Ignore soundfiles with sizes larger than 4000000 bytes (4MB)
-		if (soundfile_size > 4000000):
-			rawData.pop(i)
+		#if (soundfile_size > 4000000):
+		#rawData.pop(i)
 
-		# Last
+		# 3. Load the soundfiles into the system and store into a database
+		temp_wav = wave.open(filename)
 	
 	rawLabels.append('size')
 	return rawData, rawLabels
