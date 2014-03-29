@@ -7,6 +7,12 @@ import numpy as np
 import os
 import scipy as sp
 import wave
+from scipy.io import wavfile
+#import scikits
+#from scikits.audiolab import Sndfile
+import struct
+
+
 
 debug = True
 
@@ -32,33 +38,69 @@ def csvToList(filename, dropValues=[], ignoreFirstRow=False, debug=False):
 	return rawData, rawLabels
 
 def dataCleanup(rawData, rawLabels, pathToSoundfiles=''):
-	# iterate over each soundfile
-	N = len(rawData)
-	print(N)
-	post_append = '_44k.wav'
+	
+	# Create a copy of rawData and rawLabels to be edited
+	cleanData = rawData
+	cleanLabels = rawLabels
 
-	if (debug)
+	N = len(rawData)
+	if (debug):
+		print(N)
+	if (debug):
 		print(rawData[219])
 
+	post_append = '_44k.wav'
+
+	# Iterate over each soundfile (always read from rawData and write to cleanData)
 	for i in range(N):
-		if (debug)
-			print(i)
+		# Filename is basically catalog number concatanated with _44k.wav
 		catalog = str(rawData[i][1])
-		if (debug)
+		if (debug):
 			print(catalog)
 		filename = pathToSoundfiles + catalog + post_append
 
 		# Do something with the files now
+
 		# 1. Add size data to rawData:
-		soundfile_size = os.stat(filename).st_size
-		rawData[i].append(soundfile_size)
+		soundfile_size = os.stat(filename).st_size # get the file size
+		cleanData[i].append(soundfile_size) 
 
 		# 2. Ignore soundfiles with sizes larger than 4000000 bytes (4MB)
 		#if (soundfile_size > 4000000):
 		#rawData.pop(i)
 
 		# 3. Load the soundfiles into the system and store into a database
-		temp_wav = wave.open(filename)
+
+		ifile = wave.open(filename)
+		nf = ifile.getnframes() 
+		sampwidth = ifile.getsampwidth()
+		fmts = (None, "=B", "=h", None, "=l")
+		fmt = fmts[sampwidth]
+		dcs  = (None, 128, 0, None, 0)
+		dc = dcs[sampwidth]
+
+		rf = ifile.readframes(nf) 
+		ifile.close() 
+		data = struct.unpack("%sh" %nf,rf) 
+		for i in range(2000): 
+			print i,data[i] 
+
+
+		# f = Sndfile(filename, 'r')
+		# # Sndfile instances can be queried for the audio file meta-data
+		# fs = f.samplerate
+		# nc = f.channels
+		# enc = f.encoding
+		# # Reading is straightfoward
+		# data = f.read_frames(1000)
+		# This reads the next 1000 frames, e.g. from 1000 to 2000, but as single precision
+		# data_float = f.read_frames(1000, dtype=np.float32)
+
+		# w = wave.open(filename, 'r')
+		# w2 = sp.io.wavfile.read(filename)
+		# print('**********************************************************************************')
+		# print(w2)
+		# break
 	
 	rawLabels.append('size')
 	return rawData, rawLabels

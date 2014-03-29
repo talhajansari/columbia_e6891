@@ -1,0 +1,402 @@
+Format,Catalog,ScientificName,CommonName,Male,Female,Adult,Immature,Call,Song,Mechanical,Behaviors,Environmental,FX,People/Interview,ERSubtitles,FXSubtitles,PplSubtitles,Country,State,Locality,Latitude,Longitude,Captive,RecordistLast,RecordistFirst,RecordistMiddle,Year,Month,Day,Time,Length,Quality
+Audio ,165049,Campylorhynchus rufinucha ; Leptotila verreauxi ; Thamnophilus doliatus , Rufous-naped Wren;  White-tipped Dove;  Barred Antshrike,,,,,,,,,Y,,,Dry forest dawn chorus,,,Costa Rica,Guanacaste,,,,,Ross,"David L., Jr.",,1996,4,13,709,8:29,5
+Audio ,62018,Cercomacra tyrannina , Dusky Antbird,Y,Y,Y,,,Y,,song,,,,,,,Venezuela,,,6.38,-58.68,,Schwartz,Paul,A,1967,11,17,06:55,5:23,5
+Audio ,62017,Cercomacra tyrannina , Dusky Antbird,Y,Y,Y,,,Y,,song,,,,,,,Venezuela,,,6.38,-58.68,,Schwartz,Paul,A,1967,11,16,06:00,3:36,5
+Audio ,62013,Cercomacra tyrannina , Dusky Antbird,Y,Y,Y,,Y,Y,,call;song,,,,,,,Venezuela,,,7.9666667,-61.8833333,,Schwartz,Paul,A,1966,7,13,07:45,4:40,5
+Audio ,62008,Cercomacra tyrannina , Dusky Antbird,,,,,,,,,,,,,,,Venezuela,,,7.9666667,-61.8833333,,Schwartz,Paul,A,1961,4,28,05:30,1:05,5
+Audio ,29130,Thamnophilus doliatus , Barred Antshrike,,,Y,,,Y,,song,,,,,,,Peru,Loreto,,-3.1,-72.9166667,,"Parker, III",Theodore,A,1982,5,19,11:45,:21,5
+Audio ,7228,Taraba major , Great Antshrike,,,,,Y,,,call,,,,,,,Venezuela,Distrito Federal,,10.58,-66.93,,Schwartz,Paul,A,1958,7,23,17:30,:45,5
+Audio ,7053,Cercomacra tyrannina , Dusky Antbird,,,,,,,,,,,,,,,Costa Rica,,,,,,Davis,L. Irby,,1958,3,25,00:00,:20,5
+Audio ,134643,Cercomacra tyrannina , Dusky Antbird,Y,Y,Y,,Y,Y,,call;duet;song,,,,,,,Suriname,Sipaliwini,,,,,Hanks,Cullen,K,2006,2,21,00:00,4:02,4
+Audio ,164013,Thamnophilus doliatus , Barred Antshrike,Y,Y,Y,,,Y,,duet;song,,,,,,,Costa Rica,Guanacaste,,,,,Ross,"David L., Jr.",,1996,4,1,600,1:28,4
+Audio ,128084,Taraba major , Great Antshrike,,,,,,Y,,song,,,,,,,Brazil,Alagoas,,-9.2127778,-35.8727778,,Marantz,Curtis,A,2001,3,13,06:11,8:49,4
+Audio ,127527,Thamnophilus doliatus , Barred Antshrike,,,,,,,,,,,,,,,Brazil,Amazonas,,-3.7947222,-60.2966667,,Marantz,Curtis,A,2000,11,22,00:00,1:25,4
+Audio ,117018,Cercomacra tyrannina , Dusky Antbird,Y,Y,Y,,,Y,,duet;song,,,,,,,Brazil,Amazonas,,-1.8858333,-61.7375,,Marantz,Curtis,A,1996,11,12,16:13,1:20,4
+Audio ,88840,Taraba major , Great Antshrike,,,Y,,,Y,,song,,,,,,,Brazil,Mato Grosso,,,,,Marantz,Curtis,A,1997,11,9,10:37,11:29,4
+Audio ,88703,Thamnophilus doliatus , Barred Antshrike,Y,Y,Y,,,Y,,song,,,,,,,Brazil,São Paulo,,,,,Marantz,Curtis,A,1998,1,24,06:58,2:32,4
+Audio ,88217,Cercomacra tyrannina , Dusky Antbird,Y,,Y,,,Y,,song,,,,,,,Brazil,Amazonas,,-3.1411111,-60.4697222,,Marantz,Curtis,A,1997,8,24,10:41,5:24,4
+Audio ,72418,Cercomacra tyrannina , Dusky Antbird,Y,Y,Y,,Y,Y,,call;duet;song,,,,,,,Guyana,Upper Takutu-Upper Essequibo,,,,,Finch,Davis,W,1995,4,25,10:00,1:18,4
+Audio ,113214,Cercomacra tyrannina , Dusky Antbird,,,,,,Y,,song,,,,,,,Brazil,Amazonas,,0.6722222,-66.595,,Marantz,Curtis,A,1998,12,31,06:53,2:31,4
+Audio ,113212,Cercomacra tyrannina , Dusky Antbird,,,,,,Y,,song,,,,,,,Brazil,Amazonas,,0.6722222,-66.595,,Marantz,Curtis,A,1998,12,31,06:43,3:59,4
+Audio ,89177,Taraba major , Great Antshrike,,,Y,,,Y,,song,,,,,,,Brazil,Mato Grosso,,,,,Marantz,Curtis,A,1998,1,6,10:28,4:11,4
+Audio ,80292,Cercomacra tyrannina , Dusky Antbird,,,,,,Y,,song,,,,,,,Ecuador,Esmeraldas,,0.9,-79.6166667,,Parker,"Theodore A., III",,1991,2,5,00:00,2:02,4
+Audio ,80291,Cercomacra tyrannina , Dusky Antbird,,,,,,Y,,song,,,,,,,Ecuador,Esmeraldas,,0.9,-79.6166667,,Parker,"Theodore A., III",,1991,2,5,00:00,1:25,4
+Audio ,62021,Cercomacra tyrannina , Dusky Antbird,Y,Y,Y,,Y,Y,,call;song,,,,,,,Venezuela,,,7.1333333,-66.9333333,,Schwartz,Paul,A,1968,7,13,05:55,2:49,4
+Audio ,62020,Cercomacra tyrannina , Dusky Antbird,Y,Y,Y,,,Y,,song,,,,,,,Venezuela,,,7.9666667,-61.8833333,,Schwartz,Paul,A,1968,6,1,07:00,3:32,4
+Audio ,61741,Thamnophilus doliatus , Barred Antshrike,Y,Y,Y,,,Y,,song,,,,,,,Venezuela,Aragua,,10.4666667,-67.7666667,,Schwartz,Paul,A,1965,11,9,07:00,6:05,4
+Audio ,61739,Thamnophilus doliatus , Barred Antshrike,Y,Y,Y,,,Y,,song,,,,,,,Venezuela,Distrito Federal,,10.45,-66.9333333,,Schwartz,Paul,A,1963,9,1,08:00,1:22,4
+Audio ,48556,Cercomacra tyrannina , Dusky Antbird,,,,,,,,duet,,,,,,,Brazil,Amazonas,,,,,Cohn-Haft,Mario,,1989,7,8,13:00,3:05,4
+Audio ,41033,Cercomacra tyrannina , Dusky Antbird,,,,,,,,,,,,,,,Brazil,Amazonas,,-1.9833333,-59.5,,Bierregaard,Richard,O,1987,11,28,06:15,2:08,4
+Audio ,20791,Thamnophilus doliatus , Barred Antshrike,,,,,,,,,,,,,,,El Salvador,Morazán,,13.5833333,-88.0833333,,Thurber,Walter,A,1976,2,14,17:00,2:28,4
+Audio ,18087,Taraba major , Great Antshrike,,,Y,,,Y,,song,,,,,,,Ecuador,Napo,,-0.38,-76.63,,O'Neill,John,P,1976,10,4,00:00,1:25,4
+Audio ,29127,Thamnophilus doliatus , Barred Antshrike,Y,,Y,,Y,,,call,,,,,,,Peru,Loreto,,-3.1,-72.9166667,,"Parker, III",Theodore,A,1982,5,19,11:40,:45,4
+Audio ,18083,Taraba major , Great Antshrike,,,Y,,,Y,,song,,,,,,,Ecuador,Napo,,-0.38,-76.63,,O'Neill,John,P,1976,10,4,00:00,2:33,4
+Audio ,30755,Thamnophilus doliatus , Barred Antshrike,Y,Y,Y,,,Y,,counter singing;song,,,,,,,Peru,Loreto,,-3.1,-72.9166667,,Parker,"Theodore A., III",,1983,6,14,07:00,8:35,4
+Audio ,30576,Cercomacra tyrannina , Dusky Antbird,,,,,,Y,,song,,,,,,,Venezuela,,,7.97,-61.88,,Parker,"Theodore A., III",,1983,9,4,00:00,3:30,4
+Audio ,25908,Cercomacra tyrannina , Dusky Antbird,Y,Y,Y,,Y,Y,,call;song,,,,,,,Panama,Darién,,,,,Parker,"Theodore A., III",,1982,2,13,00:00,1:41,4
+Audio ,30468,Cercomacra tyrannina , Dusky Antbird,Y,Y,Y,,Y,Y,,call;song,,,,,,,Venezuela,,,4.75,-61.25,,Parker,"Theodore A., III",,1983,8,31,00:00,1:59,4
+Audio ,24347,Taraba major , Great Antshrike,,,,,,,,,,,,,,,Peru,Amazonas,,-4.47,-78.15,,O'Neill,John,P,1977,8,15,00:00,3:48,4
+Audio ,11622,Cercomacra tyrannina , Dusky Antbird,,,Y,,,,,,,,,,,,Suriname,,,,,,Davis,Thomas,H,1979,11,16,06:40,1:00,4
+Audio ,11530,Cercomacra tyrannina , Dusky Antbird,Y,,Y,,,Y,,song,,,,,,,Suriname,,,,,,Davis,Thomas,H,1979,11,7,06:25,1:18,4
+Audio ,11420,Taraba major , Great Antshrike,Y,Y,Y,,,Y,,song,,,,,,,Peru,Ucayali,,-8.33,-74.58,,Parker,"Theodore A., III",,1976,7,21,00:00,6:27,4
+Audio ,7247,Thamnophilus doliatus , Barred Antshrike,,,,,,,,,,,,,,,Trinidad and Tobago,,,10.6666667,-61.25,,Ward,Rodman,,1965,1,16,09:30,:46,4
+Audio ,7244,Thamnophilus doliatus , Barred Antshrike,,,,,,,,,,,,,,,Venezuela,Distrito Federal,,10.58,-66.93,,Schwartz,Paul,A,1956,9,2,09:00,2:08,4
+Audio ,7243,Thamnophilus doliatus , Barred Antshrike,,,,,,,,,,,,,,,Venezuela,Distrito Federal,,10.58,-66.93,,Schwartz,Paul,A,1956,6,2,07:30,:42,4
+Audio ,7231,Taraba major , Great Antshrike,,,,,Y,,,call,,,,,,,Panama,Panamá,,,,,Morton,Eugene,S,1965,9,7,10:00,7:32,4
+Audio ,7227,Taraba major , Great Antshrike,,,,,,Y,,song,,,,,,,Venezuela,Distrito Federal,,10.58,-66.93,,Schwartz,Paul,A,1958,6,5,17:30,2:46,4
+Audio ,7057,Cercomacra tyrannina , Dusky Antbird,,,,,Y,Y,,call;song,,,,,,,Panama,Panamá,,,,,Morton,Eugene,S,1965,10,28,10:05,1:02,4
+Audio ,7056,Cercomacra tyrannina , Dusky Antbird,,,,,Y,,,call,,,,,,,Panama,Panamá,,,,,Morton,Eugene,S,1965,9,27,10:30,1:20,4
+Audio ,7054,Cercomacra tyrannina , Dusky Antbird,,,,,,,,,,,,,,,Costa Rica,,,,,,Davis,L. Irby,,1958,4,6,06:30,:37,4
+Audio ,10463,Taraba major , Great Antshrike,Y,,Y,,Y,,,call,,,,,,,Peru,Huánuco,,-9,-76,,Parker,"Theodore A., III",,1975,5,,08:00,:37,4
+Audio ,135,Thamnophilus doliatus , Barred Antshrike,,,,,,,,,,,,,,,El Salvador,Morazán,,13.5833333,-88.0833333,,Thurber,Walter,A,1976,5,15,07:00,8:06,4
+Audio ,144367,Cercomacra tyrannina , Dusky Antbird,Y,,Y,,,Y,,song,,,,,,,Guyana,,,5.6666667,-57.8833333,,Robbins,Mark,B,1996,3,27,06:00,1:34,3
+Audio ,164072,Thamnophilus doliatus , Barred Antshrike,,,,,Y,Y,,call;song,,,,,,,Costa Rica,Guanacaste,,,,,Ross,"David L., Jr.",,1996,4,7,,1:08,3
+Audio ,165018,Thamnophilus doliatus , Barred Antshrike,,,,,Y,,,call,,,,,,,Costa Rica,Guanacaste,,,,,Ross,"David L., Jr.",,1996,4,9,,:32,3
+Audio ,165002,Thamnophilus doliatus , Barred Antshrike,,,,,Y,,,call,,,,,,,Costa Rica,Guanacaste,,,,,Ross,"David L., Jr.",,1996,4,8,,1:26,3
+Audio ,141317,Thamnophilus doliatus , Barred Antshrike,,,,,,Y,,song,,,,,,,Venezuela,Apure,,7.4304,-69.3251,,Harvey,Michael,G,2009,1,20,16:15,2:38,3
+Audio ,134800,Cercomacra tyrannina , Dusky Antbird,Y,,Y,,,Y,,song,,,,,,,Guyana,,,,,,O'Shea,Brian,J,2001,2,6,00:00,1:52,3
+Audio ,134524,Cercomacra tyrannina , Dusky Antbird,Y,Y,Y,,,Y,,duet;song,,,,,,,Suriname,Sipaliwini,,,,,O'Shea,Brian,J,2005,10,20,00:00,3:08,3
+Audio ,134409,Cercomacra tyrannina , Dusky Antbird,Y,,Y,,,Y,,song,,,,,,,Guyana,Upper Takutu-Upper Essequibo,,1.4166667,-58.95,,O'Shea,Brian,J,2006,10,9,00:00,:53,3
+Audio ,132328,Taraba major , Great Antshrike,Y,,Y,,,Y,,song,,,,,,,Peru,Madre de Dios,,-12.5666667,-70.1,,Andersen,Michael,J,2004,11,1,09:44,15:30,3
+Audio ,134962,Cercomacra tyrannina , Dusky Antbird,Y,Y,Y,,,Y,,duet;song,,,,,,,Guyana,,,,,,O'Shea,Brian,J,2001,4,28,00:00,2:23,3
+Audio ,127557,Thamnophilus doliatus , Barred Antshrike,Y,Y,Y,,,Y,,song,,,,,,,Brazil,Amazonas,,-3.7947222,-60.2966667,,Marantz,Curtis,A,2000,11,25,08:46,5:26,3
+Audio ,125906,Taraba major , Great Antshrike,Y,Y,Y,,Y,Y,,call;song,,,,,,,Ecuador,Loja,,-3.8,-79.75,,Macaulay,Linda,R,2002,3,12,10:15,4:10,3
+Audio ,103151,Thamnophilus doliatus , Barred Antshrike,,,,,,Y,,song,,,,,,,Costa Rica,Guanacaste,,10.878261,-85.572828,,Medler,Matthew,D,1999,6,27,00:00,:14,3
+Audio ,88250,Cercomacra tyrannina , Dusky Antbird,Y,Y,Y,,,Y,,duet;song,,,,,,,Brazil,Amazonas,,-3.1411111,-60.4697222,,Marantz,Curtis,A,1997,8,28,07:02,2:15,3
+Audio ,88249,Cercomacra tyrannina , Dusky Antbird,Y,Y,Y,,Y,Y,,call;song,,,,,,,Brazil,Amazonas,,-3.1411111,-60.4697222,,Marantz,Curtis,A,1997,8,28,06:52,3:31,3
+Audio ,89182,Taraba major , Great Antshrike,,Y,,,Y,,,call,,,,,,,Brazil,Mato Grosso,,,,,Marantz,Curtis,A,1998,1,7,06:28,2:05,3
+Audio ,88999,Taraba major , Great Antshrike,Y,,Y,,,Y,,song,,,,,,,Brazil,Mato Grosso,,,,,Marantz,Curtis,A,1997,12,9,07:19,3:49,3
+Audio ,80198,Taraba major , Great Antshrike,Y,,,,,Y,,song,,,,,,,Ecuador,Manabí,,-1.35,-80.58,,Parker,"Theodore A., III",,1991,1,25,10:55,2:27,3
+Audio ,77960,Thamnophilus doliatus , Barred Antshrike,Y,Y,Y,,,Y,,song,,,,,,,Guyana,Upper Takutu-Upper Essequibo,,,,,Finch,Davis,W,1994,12,5,05:45,:40,3
+Audio ,77947,Cercomacra tyrannina , Dusky Antbird,Y,Y,Y,,,Y,,song,,,,,,,Guyana,Essequibo Islands-West Demerara,,,,,Finch,Davis,W,1994,9,25,08:45,1:32,3
+Audio ,80593,Thamnophilus doliatus , Barred Antshrike,,,,,,Y,,duet;song,,,,,,,Bolivia,Santa Cruz,,-13.55,-61,,Parker,"Theodore A., III",,1991,5,27,00:00,1:16,3
+Audio ,76680,Cercomacra tyrannina , Dusky Antbird,Y,Y,Y,,,Y,,song,,,,,,,Costa Rica,Puntarenas,,,,,Marantz,Curtis,A,1991,4,8,07:13,1:19,3
+Audio ,82635,Thamnophilus doliatus , Barred Antshrike,,,,,,Y,,song,,,,,,,Bolivia,Santa Cruz,,-18.7758333,-62.2438889,,"Parker, III",Theodore,A,1991,7,15,00:00,:15,3
+Audio ,74018,Taraba major , Great Antshrike,,,,,,Y,,song,,,,,,,Costa Rica,Puntarenas,,,,,Ross,"David L., Jr.",,1988,2,1,00:00,2:15,3
+Audio ,62027,Cercomacra tyrannina , Dusky Antbird,Y,Y,Y,,,Y,,song,,,,,,,Brazil,Pará,,-1.45,-48.4833333,,Schwartz,Paul,A,1971,12,10,06:15,3:23,3
+Audio ,62026,Cercomacra tyrannina , Dusky Antbird,,,,,,Y,,song,,,,,,,Venezuela,,,6.38,-58.68,,Schwartz,Paul,A,1976,7,31,06:25,1:36,3
+Audio ,62025,Cercomacra tyrannina , Dusky Antbird,Y,Y,Y,,,Y,,song,,,,,,,Venezuela,Amazonas,,1.75,-67,,Schwartz,Paul,A,1972,1,27,06:25,3:23,3
+Audio ,62022,Cercomacra tyrannina , Dusky Antbird,Y,Y,Y,,,Y,,song,,,,,,,Venezuela,Táchira,,9.68,-70.24,,Schwartz,Paul,A,1968,12,6,07:15,1:59,3
+Audio ,62016,Cercomacra tyrannina , Dusky Antbird,,,,,Y,,,call,,,,,,,Venezuela,,,7.9666667,-61.8833333,,Schwartz,Paul,A,1967,11,11,15:00,1:11,3
+Audio ,62015,Cercomacra tyrannina , Dusky Antbird,Y,Y,Y,,,Y,,song,,,,,,,Venezuela,,,7.9666667,-61.8833333,,Schwartz,Paul,A,1967,5,30,06:30,:39,3
+Audio ,62012,Cercomacra tyrannina , Dusky Antbird,,,,,,Y,,song,,,,,,,Venezuela,,,7.9666667,-61.8833333,,Schwartz,Paul,A,1966,5,22,06:15,1:19,3
+Audio ,62009,Cercomacra tyrannina , Dusky Antbird,,,,,Y,Y,,call;song,,,,,,,Venezuela,,,7.9666667,-61.8833333,,Schwartz,Paul,A,1961,5,1,05:30,1:36,3
+Audio ,61748,Thamnophilus doliatus , Barred Antshrike,,,,,,Y,,song,,,,,,,Venezuela,Apure,,7.38,-71.77,,Schwartz,Paul,A,1973,10,4,18:00,1:40,3
+Audio ,61745,Thamnophilus doliatus , Barred Antshrike,,,,,Y,,,call,,,,,,,Venezuela,,,6.38,-58.68,,Schwartz,Paul,A,1967,11,17,08:15,1:30,3
+Audio ,61743,Thamnophilus doliatus , Barred Antshrike,Y,Y,Y,,,Y,,song,,,,,,,Venezuela,,,7.35,-61.8166667,,Schwartz,Paul,A,1966,7,,00:00,4:00,3
+Audio ,61735,Thamnophilus doliatus , Barred Antshrike,Y,Y,Y,,,Y,,song,,,,,,,Venezuela,Guárico,,8.42,-67.5,,Schwartz,Paul,A,1961,7,24,07:00,1:12,3
+Audio ,61099,Taraba major , Great Antshrike,,,,,,Y,,song,,,,,,,Venezuela,Aragua,,10.3666667,-67.6833333,,Schwartz,Paul,A,1968,5,15,06:20,2:15,3
+Audio ,61094,Taraba major , Great Antshrike,,,,,,Y,,song,,,,,,,Venezuela,Distrito Federal,,10.45,-66.9333333,,Schwartz,Paul,A,1963,8,31,06:00,3:03,3
+Audio ,64711,Cercomacra tyrannina , Dusky Antbird,Y,Y,Y,,,,,duet,,,,,,,Brazil,Amazonas,,,,,Zimmer,Kevin,J,1993,1,21,00:00,:58,3
+Audio ,64707,Cercomacra tyrannina , Dusky Antbird,,,,,,Y,,song,,,,,,,Brazil,Amazonas,,,,,Zimmer,Kevin,J,1993,1,21,00:00,:43,3
+Audio ,47825,Thamnophilus doliatus , Barred Antshrike,,Y,Y,,Y,,,call,,,,,,,Venezuela,Miranda,,10.3166667,-66.85,,Isler,Morton,L,1987,2,14,08:00,:08,3
+Audio ,49345,Cercomacra tyrannina , Dusky Antbird,Y,Y,Y,,,,,,,,,,,,Venezuela,,,8.1666667,-61.75,,Duncan,Charles,D,1989,8,19,17:32,3:27,3
+Audio ,52480,Thamnophilus doliatus , Barred Antshrike,,,,,,Y,,song,,,,,,,Bolivia,Santa Cruz,,-18.4,-62.02,,Parker,"Theodore A., III",,1990,6,16,00:00,2:27,3
+Audio ,48558,Cercomacra tyrannina , Dusky Antbird,,,,,,,,duet,,,,,,,Brazil,Amazonas,,,,,Cohn-Haft,Mario,,1989,7,8,13:20,3:17,3
+Audio ,48229,Cercomacra tyrannina , Dusky Antbird,Y,,,,,Y,,song,,,,,,,Brazil,Pará,,,,,Isler,Phyllis,R,1989,11,11,00:00,3:15,3
+Audio ,48198,Thamnophilus doliatus , Barred Antshrike,,,Y,,Y,Y,,call;song,,,,,,,Peru,Loreto,,-3.5,-73,,Isler,Morton,L,1988,2,19,07:50,:57,3
+Audio ,48191,Thamnophilus doliatus , Barred Antshrike,,,,,,Y,,song,,,,,,,Peru,Loreto,,-3.5,-73,,Isler,Morton,L,1988,2,16,07:30,1:13,3
+Audio ,47847,Taraba major , Great Antshrike,,,Y,,Y,,,call,,,,,,,Brazil,Pará,,,,,Isler,Morton,L,1989,10,12,05:15,:12,3
+Audio ,39543,Taraba major , Great Antshrike,,Y,Y,,Y,,,call,,,,,,,Peru,Madre de Dios,,-12.6666667,-69.25,,Isler,Morton,L,1987,10,3,07:00,2:01,3
+Audio ,39308,Cercomacra tyrannina , Dusky Antbird,,,,,,Y,,song,,,,,,,Costa Rica,Puntarenas,,,,,Parker,"Theodore A., III",,1983,4,,00:00,:52,3
+Audio ,37466,Taraba major , Great Antshrike,,,,,Y,,,call,,,,,,,Peru,Loreto,,-5.08,-74.58,,Robbins,Mark,B,1985,8,26,11:00,:28,3
+Audio ,35715,Thamnophilus doliatus , Barred Antshrike,Y,,Y,,,Y,,song,,,,,,,Brazil,Bahia,,,,,Parker,"Theodore A., III",,1985,11,17,16:00,1:37,3
+Audio ,35708,Thamnophilus doliatus , Barred Antshrike,Y,,Y,,,Y,,song,,,,,,,Brazil,Bahia,,,,,Parker,"Theodore A., III",,1985,11,17,14:30,1:02,3
+Audio ,38856,Thamnophilus doliatus , Barred Antshrike,,Y,Y,,,Y,,song,,,,,,,Bolivia,Pando,,-11.25,-68.68,,Parker,"Theodore A., III",,1986,6,12,00:00,:08,3
+Audio ,43265,Thamnophilus doliatus , Barred Antshrike,Y,Y,Y,,,Y,,counter singing;song,,,,,,,Peru,Madre de Dios,,-12.7,-68.8,,Parker,"Theodore A., III",,1988,8,13,00:00,2:10,3
+Audio ,30462,Cercomacra tyrannina , Dusky Antbird,,,Y,,Y,,,call,,,,,,,Venezuela,,,4.75,-61.25,,Parker,"Theodore A., III",,1983,8,30,00:00,:27,3
+Audio ,30282,Cercomacra tyrannina , Dusky Antbird,Y,Y,Y,,,Y,,song,,,,,,,Panama,Panamá,,9,-79,,Kibler,Lewis,F,1983,7,27,06:15,3:57,3
+Audio ,31741,Thamnophilus doliatus , Barred Antshrike,Y,,Y,,Y,,,call,,,,,,,Peru,Loreto,,-3.25,-72.92,,Parker,"Theodore A., III",,1983,6,25,09:45,:17,3
+Audio ,35402,Thamnophilus doliatus , Barred Antshrike,Y,Y,Y,,,Y,,song,,,,,,,Peru,Loreto,,-3.5,-73,,Parker,"Theodore A., III",,1985,6,27,00:00,1:41,3
+Audio ,25311,Cercomacra tyrannina , Dusky Antbird,Y,Y,Y,,,Y,,song,,,,,,,Suriname,,,,,,Davis,Thomas,H,1980,11,2,07:00,1:00,3
+Audio ,29128,Thamnophilus doliatus , Barred Antshrike,,Y,Y,,Y,Y,,call;song,,,,,,,Peru,Loreto,,-3.1,-72.9166667,,"Parker, III",Theodore,A,1982,5,19,11:45,:47,3
+Audio ,26593,Cercomacra tyrannina , Dusky Antbird,,,Y,,Y,,,call,,,,,,,Suriname,,,,,,Isler,Phyllis,R,1981,1,19,00:00,1:57,3
+Audio ,25917,Cercomacra tyrannina , Dusky Antbird,Y,Y,Y,,Y,Y,,call;song,,,,,,,Panama,Darién,,,,,Parker,"Theodore A., III",,1982,2,13,08:30,2:04,3
+Audio ,25905,Cercomacra tyrannina , Dusky Antbird,Y,Y,Y,,Y,Y,,call;song,,,,,,,Panama,Darién,,,,,Parker,"Theodore A., III",,1982,2,13,00:00,1:40,3
+Audio ,29861,Taraba major , Great Antshrike,Y,,Y,,,Y,,song,,,,,,,Peru,Madre de Dios,,-11.9166667,-77.3,,Parker,"Theodore A., III",,1982,9,8,08:30,2:58,3
+Audio ,28473,Cercomacra tyrannina , Dusky Antbird,Y,Y,Y,,,Y,,duet;song,,,,,,,Ecuador,Pichincha,,-0.3333333,-79.2666667,,van den Berg,Arnoud,B,1981,3,10,10:10,:37,3
+Audio ,28456,Cercomacra tyrannina , Dusky Antbird,Y,,Y,,Y,Y,,call;song,,,,,,,Panama,,,,,,van den Berg,Arnoud,B,1981,3,28,07:15,2:43,3
+Audio ,28392,Thamnophilus doliatus , Barred Antshrike,Y,,Y,,Y,,,call,,,,,,,Panama,,,9.2166667,-79.9333333,,van den Berg,Arnoud,B,1981,4,7,13:50,:25,3
+Audio ,27226,Taraba major , Great Antshrike,Y,,Y,,,Y,,song,,,,,,,Costa Rica,Puntarenas,,8.5166667,-83.6,,Grimshaw,Roger,P,1982,1,29,07:45,7:06,3
+Audio ,27214,Taraba major , Great Antshrike,,,,,,,,,,,,,,,Costa Rica,Puntarenas,,8.3666667,-83.6,,Grimshaw,Roger,P,1982,1,27,06:30,5:33,3
+Audio ,25516,Cercomacra tyrannina , Dusky Antbird,Y,Y,Y,,,,,,,,,,,,Suriname,,,,,,Davis,Thomas,H,1981,2,24,08:15,:55,3
+Audio ,25503,Thamnophilus doliatus , Barred Antshrike,Y,,Y,,,Y,,song,,,,,,,Suriname,,,,,,Davis,Thomas,H,1981,2,20,08:10,1:53,3
+Audio ,20753,Thamnophilus doliatus , Barred Antshrike,,,,,,,,,,,,,,,El Salvador,Morazán,,13.5833333,-88.0833333,,Thurber,Walter,A,1975,5,24,07:00,1:44,3
+Audio ,20752,Thamnophilus doliatus , Barred Antshrike,Y,Y,Y,,Y,,,call,,,,,,,El Salvador,Morazán,,13.5833333,-88.0833333,,Thurber,Walter,A,1975,5,21,07:30,5:19,3
+Audio ,17560,Taraba major , Great Antshrike,Y,,Y,,,Y,,song,,,,,,,Peru,Amazonas,,-4.47,-78.15,,Parker,"Theodore A., III",,1978,8,18,00:00,2:14,3
+Audio ,18339,Taraba major , Great Antshrike,,,Y,,,Y,,song,,,,,,,Peru,Ucayali,,-8.33,-74.58,,Cartwright,John,,1976,6,,00:00,2:17,3
+Audio ,12807,Taraba major , Great Antshrike,Y,,Y,,,Y,,song,,,,,,,Peru,Madre de Dios,,-12.5,-69,,Parker,"Theodore A., III",,1977,6,26,00:00,:32,3
+Audio ,7252,Thamnophilus doliatus , Barred Antshrike,,,,,,,,,,,,,,,El Salvador,La Paz,,13.35,-89.0333333,,Thurber,Walter,A,1971,5,20,08:30,5:02,3
+Audio ,7251,Thamnophilus doliatus , Barred Antshrike,,,,,Y,,,call,,,,,,,Panama,Panamá,,,,,Morton,Eugene,S,1966,2,18,09:30,:10,3
+Audio ,7250,Thamnophilus doliatus , Barred Antshrike,,,,,,,,,,,,,,,Panama,Panamá,,,,,Morton,Eugene,S,1965,10,18,08:30,1:31,3
+Audio ,7249,Thamnophilus doliatus , Barred Antshrike,,,,,,,,,,,,,,,Trinidad and Tobago,,,11.25,-60.75,,Ward,Rodman,,1965,1,28,09:00,:42,3
+Audio ,7248,Thamnophilus doliatus , Barred Antshrike,,,,,Y,,,call,,,,,,,Trinidad and Tobago,,,10.6666667,-61.25,,Ward,Rodman,,1965,1,23,09:30,:37,3
+Audio ,7246,Thamnophilus doliatus , Barred Antshrike,,,,,,,,,,,,,,,Trinidad and Tobago,,,10.6666667,-61.25,,Ward,Rodman,,1965,1,16,09:00,:33,3
+Audio ,7242,Thamnophilus doliatus , Barred Antshrike,,,,,Y,,,call,,,,,,,Venezuela,Distrito Federal,,10.58,-66.93,,Schwartz,Paul,A,1956,12,2,06:45,:34,3
+Audio ,7230,Taraba major , Great Antshrike,,,,,,,,,,,,,,,Trinidad and Tobago,,,10.6666667,-61.25,,Ward,Rodman,,1965,1,23,10:00,1:48,3
+Audio ,7052,Cercomacra tyrannina , Dusky Antbird,,,,,,,,,,,,,,,Mexico,Veracruz,,,,,Davis,L. Irby,,1954,3,29,00:00,1:08,3
+Audio ,166085,Taraba major , Great Antshrike,,,,,,Y,,song,,,,,,,Peru,Ucayali,,-10.41,-73.95,,Terrill,Ryan,S,2011,6,21,839,1:01,2
+Audio ,164084,Thamnophilus doliatus , Barred Antshrike,,,Y,,Y,Y,,call;song,,,,,,,Costa Rica,Guanacaste,,,,,Ross,"David L., Jr.",,1996,4,7,,1:19,2
+Audio ,165032,Thamnophilus doliatus , Barred Antshrike,,,Y,,,,,,,,,,,,Costa Rica,Guanacaste,,,,,Ross,"David L., Jr.",,1996,4,10,,1:19,2
+Audio ,138847,Taraba major , Great Antshrike,,,,,Y,,,call,,,,,,,Peru,Ucayali,,-10.7549833,-74.2194667,,Seeholzer,Glenn,F,2008,9,19,06:40,1:02,2
+Audio ,135073,Taraba major , Great Antshrike,Y,,Y,,,Y,,song,,,,,,,Peru,Madre de Dios,,-12.78,-71.38,,O'Shea,Brian,J,2001,9,14,00:00,1:06,2
+Audio ,135137,Taraba major , Great Antshrike,,,Y,,,Y,,song,,,,,,,Peru,Madre de Dios,,-12.78,-71.38,,O'Shea,Brian,J,2001,9,22,00:00,1:31,2
+Audio ,134679,Taraba major , Great Antshrike,,,Y,,,Y,,song,,,,,,,Suriname,Sipaliwini,,,,,Hanks,Cullen,K,2006,2,28,00:00,1:07,2
+Audio ,134534,Cercomacra tyrannina , Dusky Antbird,Y,Y,Y,,Y,,,call,,,,,,,Suriname,Sipaliwini,,,,,O'Shea,Brian,J,2005,10,24,00:00,:57,2
+Audio ,134298,Cercomacra tyrannina , Dusky Antbird,Y,,Y,,,Y,,song,,,,,,,Suriname,,,,,,O'Shea,Brian,J,2004,8,28,00:00,2:07,2
+Audio ,132295,Taraba major , Great Antshrike,Y,,Y,,,Y,,song,,,,,,,Peru,Madre de Dios,,-11.3919444,-69.5374444,,Andersen,Michael,J,2004,10,18,09:37,:33,2
+Audio ,101401,Thamnophilus doliatus , Barred Antshrike,,,,,,,,,,,,,,,Paraguay,Canindeyú,,,,,Madroño,Alberto,,1995,9,16,07:30,1:36,2
+Audio ,105117,Taraba major , Great Antshrike,,,,,,,,,,,,,,,Panama,Darién,,9,-79,,Macaulay,Linda,R,2000,1,20,09:00,:50,2
+Audio ,103258,Thamnophilus doliatus , Barred Antshrike,,,,,,,,,,,,,,,Costa Rica,Guanacaste,,10.851026,-85.611627,,Medler,Matthew,D,1999,7,11,08:45,:16,2
+Audio ,103255,Thamnophilus doliatus , Barred Antshrike,,,,,,Y,,song,,,,,,,Costa Rica,Guanacaste,,10.851026,-85.611627,,Medler,Matthew,D,1999,7,11,08:02,3:04,2
+Audio ,103240,Thamnophilus doliatus , Barred Antshrike,Y,,Y,,,Y,,song,,,,,,,Costa Rica,Guanacaste,,10.878261,-85.572828,,Medler,Matthew,D,1999,7,6,08:24,3:34,2
+Audio ,103195,Thamnophilus doliatus , Barred Antshrike,,,,,,Y,,song,,,,,,,Costa Rica,Guanacaste,,10.851026,-85.611627,,Medler,Matthew,D,1999,7,5,10:17,:25,2
+Audio ,103192,Thamnophilus doliatus , Barred Antshrike,,,,,Y,,,call,,,,,,,Costa Rica,Guanacaste,,10.851026,-85.611627,,Medler,Matthew,D,1999,7,5,09:45,:27,2
+Audio ,103145,Thamnophilus doliatus , Barred Antshrike,,,,,,Y,,song,,,,,,,Costa Rica,Guanacaste,,10.851218,-85.607595,,Medler,Matthew,D,1999,6,26,00:00,:15,2
+Audio ,82493,Taraba major , Great Antshrike,,,,,Y,,,call,,,,,,,Ecuador,Los Ríos,,-1.3333333,-79.5833333,,Parker,"Theodore A., III",,1991,7,8,00:00,:22,2
+Audio ,80760,Taraba major , Great Antshrike,,,,,Y,,,call,,,,,,,Bolivia,Santa Cruz,,-18.85,-58.6833333,,Parker,"Theodore A., III",,1991,6,12,00:00,:14,2
+Audio ,82122,Thamnophilus doliatus , Barred Antshrike,,,,,,Y,,song,,,,,,,Colombia,Tolima,,4.07,-74.7,,Donahue,Paul,K,1986,6,11,11:11,1:16,2
+Audio ,80514,Thamnophilus doliatus , Barred Antshrike,,,,,,Y,,song,,,,,,,Bolivia,Santa Cruz,,-13.65,-60.82,,Parker,"Theodore A., III",,1991,5,,00:00,1:41,2
+Audio ,80168,Taraba major , Great Antshrike,,,,,Y,,,call,,,,,,,Ecuador,Manabí,,-1.6,-80.7,,Parker,"Theodore A., III",,1991,1,22,00:00,1:01,2
+Audio ,55211,Taraba major , Great Antshrike,,,,,,,,,,,,,,,Costa Rica,Puntarenas,,,,,Ross,"David L., Jr.",,1991,1,12,0701,3:09,2
+Audio ,62014,Cercomacra tyrannina , Dusky Antbird,Y,Y,Y,,,Y,,song,,,,,,,Venezuela,,,7.9666667,-61.8833333,,Schwartz,Paul,A,1967,4,22,06:00,1:10,2
+Audio ,62011,Cercomacra tyrannina , Dusky Antbird,Y,Y,Y,,,Y,,song,,,,,,,Venezuela,,,7.9666667,-61.8833333,,Schwartz,Paul,A,1966,5,14,06:50,3:11,2
+Audio ,61749,Thamnophilus doliatus , Barred Antshrike,,,,,Y,Y,,call;song,,,,,,,Venezuela,Zulia,,10,-72.4,,Schwartz,Paul,A,1974,6,2,09:25,5:48,2
+Audio ,61744,Thamnophilus doliatus , Barred Antshrike,Y,Y,Y,,,Y,,song,,,,,,,Venezuela,,,7.33,-64.92,,Schwartz,Paul,A,1967,5,19,07:55,3:05,2
+Audio ,61742,Thamnophilus doliatus , Barred Antshrike,Y,,Y,,,Y,,song,,,,,,,Venezuela,Zulia,,9.8166667,-72.5333333,,Schwartz,Paul,A,1966,4,2,13:30,2:10,2
+Audio ,61740,Thamnophilus doliatus , Barred Antshrike,,,,,,Y,,song,,,,,,,Venezuela,Barinas,,8.2,-69.93,,Schwartz,Paul,A,1964,5,17,16:30,1:33,2
+Audio ,61738,Thamnophilus doliatus , Barred Antshrike,Y,Y,Y,,,Y,,song,,,,,,,Venezuela,Distrito Federal,,10.45,-66.9333333,,Schwartz,Paul,A,1963,9,1,06:00,1:39,2
+Audio ,61737,Thamnophilus doliatus , Barred Antshrike,Y,Y,Y,,Y,Y,,call;song,,,,,,,Venezuela,Distrito Federal,,10.45,-66.9333333,,Schwartz,Paul,A,1963,8,29,07:45,3:44,2
+Audio ,61736,Thamnophilus doliatus , Barred Antshrike,,,,,Y,Y,,call;song,,,,,,,Venezuela,Aragua,,10.3666667,-67.6833333,,Schwartz,Paul,A,1961,7,16,08:00,1:55,2
+Audio ,61700,Taraba major , Great Antshrike,,,,,,Y,,song,,,,,,,Brazil,Pará,,-1.45,-48.4833333,,Schwartz,Paul,A,1971,12,11,00:00,1:52,2
+Audio ,63401,Cercomacra tyrannina , Dusky Antbird,Y,,Y,,,Y,,song,,,,,,,Ecuador,Esmeraldas,,0.95,-78.55,,Robbins,Mark,B,1990,7,19,06:05,1:45,2
+Audio ,61096,Taraba major , Great Antshrike,,,,,,Y,,song,,,,,,,Venezuela,,,7.9666667,-61.8833333,,Schwartz,Paul,A,1966,7,3,15:00,1:19,2
+Audio ,61093,Taraba major , Great Antshrike,,,,,,Y,,song,,,,,,,Venezuela,Distrito Federal,,10.45,-66.9333333,,Schwartz,Paul,A,1963,8,31,06:00,1:37,2
+Audio ,61092,Taraba major , Great Antshrike,,,,,,,,,,,,,,,Venezuela,,,7.9666667,-61.8833333,,Schwartz,Paul,A,1961,4,30,05:35,4:43,2
+Audio ,52445,Thamnophilus doliatus , Barred Antshrike,,,,,,Y,,song,,,,,,,Bolivia,La Paz,,-13.75,-68.15,,Parker,"Theodore A., III",,1990,6,3,00:00,:57,2
+Audio ,52441,Thamnophilus doliatus , Barred Antshrike,,,,,,Y,,song,,,,,,,Bolivia,La Paz,,-13.75,-68.15,,Parker,"Theodore A., III",,1990,6,3,00:00,:28,2
+Audio ,48557,Cercomacra tyrannina , Dusky Antbird,,,,,,,,duet,,,,,,,Brazil,Amazonas,,,,,Cohn-Haft,Mario,,1989,7,8,13:10,2:55,2
+Audio ,48555,Cercomacra tyrannina , Dusky Antbird,Y,Y,Y,,,Y,,duet;song,,,,,,,Brazil,Amazonas,,,,,Cohn-Haft,Mario,,1989,7,8,12:20,5:18,2
+Audio ,54388,Cercomacra tyrannina , Dusky Antbird,Y,,Y,,Y,,,call,,,,,,,Guyana,,,8.25,-59.7333333,,Robbins,Mark,B,2002,3,21,07:20,1:16,2
+Audio ,54354,Cercomacra tyrannina , Dusky Antbird,Y,,Y,,,Y,,duet;song,,,,,,,Guyana,,,2.2,-59.3666667,,Robbins,Mark,B,2000,3,31,06:00,1:35,2
+Audio ,48244,Cercomacra tyrannina , Dusky Antbird,Y,Y,Y,,Y,Y,,call;song,,,,,,,Brazil,Pará,,,,,Isler,Phyllis,R,1989,11,12,00:00,1:45,2
+Audio ,48241,Cercomacra tyrannina , Dusky Antbird,,,,,,Y,,song,,,,,,,Brazil,Pará,,,,,Isler,Phyllis,R,1989,11,12,00:00,:37,2
+Audio ,48230,Cercomacra tyrannina , Dusky Antbird,Y,,,,,Y,,song,,,,,,,Brazil,Pará,,,,,Isler,Phyllis,R,1989,11,11,00:00,4:54,2
+Audio ,49311,Cercomacra tyrannina , Dusky Antbird,,,,,,,,,,,,,,,Venezuela,,,8.1666667,-61.75,,Duncan,Charles,D,1989,8,17,06:00,3:47,2
+Audio ,41031,Cercomacra tyrannina , Dusky Antbird,,,,,,,,,,,,,,,Brazil,Amazonas,,-1.9833333,-59.5,,Bierregaard,Richard,O,1987,11,28,00:00,2:25,2
+Audio ,38858,Taraba major , Great Antshrike,Y,,Y,,,Y,,song,,,,,,,Bolivia,Pando,,-11.25,-68.68,,Parker,"Theodore A., III",,1986,6,12,08:15,:39,2
+Audio ,45647,Thamnophilus doliatus , Barred Antshrike,,,,,,,,,,,,,,,Mexico,Tamaulipas,,23,-99.5,,Duncan,Charles,D,1988,3,31,09:30,1:03,2
+Audio ,34263,Thamnophilus doliatus , Barred Antshrike,Y,,Y,,Y,,,call,,,,,,,Peru,Loreto,,-3.23,-72.92,,Parker,"Theodore A., III",,1985,1,20,00:00,:19,2
+Audio ,35399,Thamnophilus doliatus , Barred Antshrike,,,,,,Y,,song,,,,,,,Peru,Loreto,,-3.5,-73,,Parker,"Theodore A., III",,1985,6,27,00:00,3:02,2
+Audio ,28696,Thamnophilus doliatus , Barred Antshrike,Y,,Y,,,Y,,counter singing;song,,,,,,,Peru,Huánuco,,-9,-75,,van den Berg,Arnoud,B,1980,11,13,06:45,:54,2
+Audio ,28547,Taraba major , Great Antshrike,Y,,Y,,Y,,,call;subsong,,,,,,,Ecuador,Napo,,-0.3833333,-76.6333333,,van den Berg,Arnoud,B,1981,2,19,13:45,:56,2
+Audio ,29510,Thamnophilus doliatus , Barred Antshrike,Y,,Y,,,Y,,song,,,,,,,Peru,Madre de Dios,,-11.9166667,-77.3,,Parker,"Theodore A., III",,1982,8,8,00:00,:54,2
+Audio ,28435,Taraba major , Great Antshrike,Y,,Y,,,Y,,song,,,,,,,Panama,Panamá,,9.1,-79.6666667,,van den Berg,Arnoud,B,1981,4,1,13:30,:13,2
+Audio ,29213,Thamnophilus doliatus , Barred Antshrike,Y,,Y,,,Y,,song,,,,,,,Peru,Loreto,,-3,-73.3333333,,Parker,"Theodore A., III",,1982,6,1,00:00,1:01,2
+Audio ,30229,Cercomacra tyrannina , Dusky Antbird,,,,,,Y,,dawn song;song,,,,,,,Panama,Panamá,,9,-79,,Kibler,Lewis,F,1983,7,14,06:00,2:54,2
+Audio ,30117,Thamnophilus doliatus , Barred Antshrike,,,Y,,Y,Y,,call;song,,,,,,,Peru,Cuzco [Cusco],,-13.13,-71.17,,Parker,"Theodore A., III",,1982,9,27,00:00,2:27,2
+Audio ,29855,Taraba major , Great Antshrike,Y,,Y,,Y,,,call,,,,,,,Peru,Madre de Dios,,-11.9166667,-77.3,,Parker,"Theodore A., III",,1982,9,8,00:00,1:19,2
+Audio ,32413,Cercomacra tyrannina , Dusky Antbird,,,,,,,,,,,,,,,Brazil,Amazonas,,-2.8166667,-60.0833333,,Bierregaard,Richard,O,1984,7,15,07:00,1:51,2
+Audio ,25892,Taraba major , Great Antshrike,Y,,Y,,Y,Y,,call;song,,,,,,,Panama,Darién,,,,,Parker,"Theodore A., III",,1982,2,12,18:00,1:47,2
+Audio ,25744,Cercomacra tyrannina , Dusky Antbird,Y,Y,Y,,,Y,,song,,,,,,,Panama,Darién,,,,,Parker,"Theodore A., III",,1982,2,6,00:00,:56,2
+Audio ,25704,Taraba major , Great Antshrike,Y,,Y,,,Y,,song,,,,,,,Panama,Darién,,,,,Parker,"Theodore A., III",,1982,2,4,00:00,1:59,2
+Audio ,25606,Thamnophilus doliatus , Barred Antshrike,Y,,Y,,,Y,,song,,,,,,,Panama,Panamá,,,,,Parker,"Theodore A., III",,1982,2,2,06:30,1:21,2
+Audio ,25396,Taraba major , Great Antshrike,Y,Y,Y,,Y,,,call,,,,,,,Suriname,,,,,,Davis,Thomas,H,1981,2,16,13:30,:44,2
+Audio ,18387,Taraba major , Great Antshrike,,,Y,,,Y,,song,,,,,,,Peru,Ucayali,,-10.1333333,-71.2166667,,O'Neill,John,P,1971,3,27,00:00,:53,2
+Audio ,7229,Taraba major , Great Antshrike,,,,,,,,,,,,,,,Trinidad and Tobago,,,,,,Snow,David,W,1959,3,16,00:00,1:30,2
+Audio ,7245,Thamnophilus doliatus , Barred Antshrike,,,,,Y,Y,,call;song,,,,,,,Trinidad and Tobago,,,,,,Snow,David,W,1959,3,28,00:00,1:40,2
+Audio ,7239,Thamnophilus doliatus , Barred Antshrike,,,,,,Y,,song,,,,,,,Mexico,Campeche,,,,,Davis,L. Irby,,1956,5,10,00:00,:50,2
+Audio ,164038,Thamnophilus doliatus , Barred Antshrike,Y,,Y,,Y,Y,,call;song,,,,,,,Costa Rica,Guanacaste,,,,,Ross,"David L., Jr.",,1996,4,2,852,5:11,1
+Audio ,12887,Thamnophilus doliatus , Barred Antshrike,Y,,Y,,,Y,,song,,,,,,,Peru,Madre de Dios,,-12.5,-69,,Parker,"Theodore A., III",,1977,7,,00:00,4:31,2
+Audio ,12861,Thamnophilus doliatus , Barred Antshrike,Y,,Y,,,Y,,song,,,,,,,Peru,Madre de Dios,,-12.5,-69,,Parker,"Theodore A., III",,1977,7,21,00:00,2:23,2
+Audio ,140676,Taraba major , Great Antshrike,,,Y,,Y,,,call,,,,,,,Peru,Junín,,-11.130279,-74.286804,,Harvey,Michael,G,2008,11,18,18:15,1:38,1
+Audio ,114690,Taraba major , Great Antshrike,,,,,Y,,,call,,,,,,,Brazil,Minas Gerais,,,,,Remold,Heinz,G,1998,11,15,14:00,:44,1
+Audio ,83178,Taraba major , Great Antshrike,,,,,Y,,,call,,,,,,,Ecuador,Los Ríos,,-1.3333333,-79.5833333,,Parker,"Theodore A., III",,1991,7,7,00:00,:58,1
+Audio ,82204,Cercomacra tyrannina , Dusky Antbird,,,,,,Y,,duet;song,,,,,,,Ecuador,Pichincha,,-0.33,-79.27,,Donahue,Paul,K,1984,4,21,11:25,:23,1
+Audio ,80415,Taraba major , Great Antshrike,,,,,,Y,,song,,,,,,,Ecuador,Esmeraldas,,0.9,-79.6166667,,Parker,"Theodore A., III",,1991,2,5,00:00,:12,1
+Audio ,105106,Taraba major , Great Antshrike,,,Y,,Y,,,call,,,,,,,Panama,Darién,,9,-79,,Macaulay,Linda,R,2000,1,20,06:30,1:07,1
+Audio ,62024,Cercomacra tyrannina , Dusky Antbird,Y,Y,Y,,,Y,,song,,,,,,,Brazil,Amazonas,,-3.1333333,-60.0333333,,Schwartz,Paul,A,1971,12,15,06:00,2:25,1
+Audio ,62023,Cercomacra tyrannina , Dusky Antbird,Y,Y,Y,,,Y,,song,,,,,,,Venezuela,Táchira,,8.21,-72.25,,Schwartz,Paul,A,1970,8,,07:15,1:48,1
+Audio ,62019,Cercomacra tyrannina , Dusky Antbird,,,,,Y,Y,,call;song,,,,,,,Venezuela,,,7.9666667,-61.8833333,,Schwartz,Paul,A,1968,4,8,06:00,3:22,1
+Audio ,62010,Cercomacra tyrannina , Dusky Antbird,Y,,,,,,,,,,,,,,Venezuela,,,7.9666667,-61.05,,Schwartz,Paul,A,1965,6,14,05:40,1:21,1
+Audio ,61747,Thamnophilus doliatus , Barred Antshrike,,,,,,Y,,song,,,,,,,Venezuela,Táchira,,7.6,-71.75,,Schwartz,Paul,A,1968,12,11,06:20,1:08,1
+Audio ,61746,Thamnophilus doliatus , Barred Antshrike,Y,Y,Y,,,Y,,song,,,,,,,Venezuela,Cojedes,,9.5833333,-68,,Schwartz,Paul,A,1968,3,31,06:30,:50,1
+Audio ,61701,Taraba major , Great Antshrike,,,,,,Y,,song,,,,,,,Venezuela,Falcón,,10.68,-71.03,,Schwartz,Paul,A,1974,6,9,10:30,:30,1
+Audio ,61098,Taraba major , Great Antshrike,,,,,,Y,,song,,,,,,,Venezuela,Aragua,,10.3666667,-67.6833333,,Schwartz,Paul,A,1967,5,29,18:40,:48,1
+Audio ,73064,Cercomacra tyrannina , Dusky Antbird,,,,,,,,,,,,,,,Guyana,Upper Takutu-Upper Essequibo,,,,,Parker,"Theodore A., III",,1993,2,15,00:00,1:10,1
+Audio ,45519,Thamnophilus doliatus , Barred Antshrike,,,Y,,,Y,,song,,,,,,,Venezuela,,,6.42,-61.47,,Parker,"Theodore A., III",,1987,2,4,08:15,1:05,1
+Audio ,49312,Cercomacra tyrannina , Dusky Antbird,,,,,,,,,,,,,,,Venezuela,,,8.1666667,-61.75,,Duncan,Charles,D,1989,8,17,06:36,2:59,1
+Audio ,52697,Cercomacra tyrannina , Dusky Antbird,,,,,,,,,,,,,,,Venezuela,Barinas,,8.5,-70.4166667,,Hilty,Steven,L,1990,1,19,00:00,:22,1
+Audio ,48066,Taraba major , Great Antshrike,Y,,,,Y,,,call,,,,,,,Brazil,Mato Grosso,,,,,Isler,Phyllis,R,1989,11,2,00:00,:53,1
+Audio ,49402,Taraba major , Great Antshrike,Y,,Y,,,Y,,song,,,,,,,Ecuador,Morona-Santiago,,-3.05,-78.05,,Robbins,Mark,B,1989,8,6,07:00,3:00,1
+Audio ,35120,Taraba major , Great Antshrike,,,Y,,,Y,,song,,,,,,,Peru,Madre de Dios,,-12.5,-69,,Kibler,Lewis,F,1985,8,8,06:10,:28,1
+Audio ,30786,Thamnophilus doliatus , Barred Antshrike,Y,,Y,,Y,,,call,,,,,,,Peru,Loreto,,-3.1,-72.9166667,,Parker,"Theodore A., III",,1983,6,16,00:00,:28,1
+Audio ,30628,Thamnophilus doliatus , Barred Antshrike,,,Y,,Y,,,call,,,,,,,Venezuela,Anzoátegui,,10,-64.5,,Parker,"Theodore A., III",,1983,9,5,00:00,:25,1
+Audio ,41476,Taraba major , Great Antshrike,,,Y,,,Y,,counter singing;song,,,,,,,Costa Rica,Puntarenas,,9.4166667,-84.1666667,,Minis,Dolly,,1988,2,27,08:00,:24,1
+Audio ,39009,Thamnophilus doliatus , Barred Antshrike,Y,Y,Y,,,Y,,song,,,,,,,Peru,Madre de Dios,,-12.88,-69.28,,Parker,"Theodore A., III",,1986,7,28,00:00,:48,1
+Audio ,31833,Thamnophilus doliatus , Barred Antshrike,Y,Y,Y,,Y,Y,,call;song,,,,,,,Peru,Loreto,,-3.23,-72.92,,Parker,"Theodore A., III",,1983,6,27,00:00,2:26,1
+Audio ,20754,Thamnophilus doliatus , Barred Antshrike,,,,,Y,,,call,,,,,,,El Salvador,Morazán,,13.5833333,-88.0833333,,Thurber,Walter,A,1975,5,23,17:30,1:45,1
+Audio ,29243,Thamnophilus doliatus , Barred Antshrike,Y,Y,Y,,,Y,,song,,,,,,,Peru,Loreto,,-3,-73.3333333,,Parker,"Theodore A., III",,1982,6,1,00:00,2:11,1
+Audio ,166118,Taraba major , Great Antshrike,,,,,,Y,,song,,,,,,,Bolivia,El Beni,,-14.4598607,-64.9742925,,Terrill,Ryan,S,2011,1,6,,:30,0
+Audio ,7241,Thamnophilus doliatus , Barred Antshrike,,,,,Y,,,call,,,,,,,Venezuela,Distrito Federal,,10.58,-66.93,,Schwartz,Paul,A,1956,4,28,07:00,:38,1
+Audio ,7240,Thamnophilus doliatus , Barred Antshrike,,,,,,,,,,,,,,,Costa Rica,,,,,,Davis,L. Irby,,1958,4,9,08:00,:44,1
+Audio ,7238,Thamnophilus doliatus , Barred Antshrike,,,,,Y,Y,,call;song,,,,,,,Mexico,Veracruz,,,,,Allen,Arthur,A,1955,2,23,00:00,1:16,1
+Audio ,7237,Thamnophilus doliatus , Barred Antshrike,,,,,Y,,,call,,,,,,,Mexico,Veracruz,,,,,Allen,Arthur,A,1955,2,24,00:00,:10,1
+Audio ,7226,Taraba major , Great Antshrike,,,,,,,,,,,,,,,Venezuela,Distrito Federal,,10.58,-66.93,,Schwartz,Paul,A,1956,12,29,17:30,1:17,1
+Audio ,7225,Taraba major , Great Antshrike,,,,,Y,,,call,,,,,,,Mexico,Veracruz,,,,,Davis,L. Irby,,1955,6,5,00:00,:06,1
+Audio ,7055,Cercomacra tyrannina , Dusky Antbird,,,,,,,,,,,,,,,Costa Rica,,,,,,Davis,L. Irby,,1962,4,23,06:00,:45,1
+Audio ,137906,Chordeiles minor ; Crypturellus parvirostris ; Elaenia flavogaster ; Emberizoides herbicola ; Suiriri suiriri ; Thamnophilus doliatus ; Vanellus chilensis , Common Nighthawk;  Small-billed Tinamou;  Yellow-bellied Elaenia;  Wedge-tailed Grass-Finch;  Suiriri Flycatcher;  Barred Antshrike;  Southern Lapwing,Y,Y,Y,,,,,duet;normsong,Y,Y,,Termite mound,Airplane landing,,Bolivia,Santa Cruz,,-14.55778,-60.93083,,NPR/NGS Radio Expeditions,,,1991,11,6,730,1:28:38,0
+Audio ,137905,Amazona ochrocephala ; Ammodramus humeralis ; Ara macao ; Cercomacra cinerascens ; Cercomacra nigrescens ; Cypsnagra hirundinacea ; Lurocalis semitorquatus ; Nyctibius aethereus ; Nyctidromus albicollis ; Penelope jacquacu ; Pheugopedius genibarbis ; Pipile cujubi ; Thamnophilus doliatus , Yellow-crowned Parrot;  Grassland Sparrow;  Scarlet Macaw;  Gray Antbird;  Blackish Antbird;  White-rumped Tanager;  Short-tailed Nighthawk;  Long-tailed Potoo;  Common Pauraque;  Spix's Guan;  Moustached Wren;  Red-throated Piping-Guan;  Barred Antshrike,Y,Y,Y,,Y,Y,Y,call;duet;fight;fly;mechanical sound;normsong;song;wing flaps,Y,Y,,Rainforest night ambi,Buzzing insect fly by,,Bolivia,Santa Cruz,,-14.5577778,-60.9308333,,NPR/NGS Radio Expeditions,,,1991,11,5,,1:57:22,0
+Audio ,126922,Thamnophilus doliatus , Barred Antshrike,Y,Y,,,,Y,,song,,,,,,,Bolivia,La Paz,,-13.2680667,-68.5625,,Hennessey,A. Bennett,,2004,9,8,06:54,2:49,0
+Audio ,127991,Taraba major , Great Antshrike,,,,,Y,,,call,,,,,,,Brazil,Alagoas,,-8.9916667,-35.8427778,,Marantz,Curtis,A,2001,2,27,17:45,1:37,0
+Audio ,134597,Cercomacra tyrannina , Dusky Antbird,Y,Y,Y,,,Y,,duet;song,,,,,,,Suriname,Sipaliwini,,,,,Hanks,Cullen,K,2006,2,17,00:00,3:53,0
+Audio ,117065,Cercomacra tyrannina , Dusky Antbird,Y,Y,Y,,Y,Y,,call;duet;song,,,,,,,Brazil,Pará,,-1.5466667,-54.9094444,,Marantz,Curtis,A,1997,1,15,08:40,4:38,0
+Audio ,110179,Cercomacra tyrannina , Dusky Antbird,,,,,,,,,,,,,,,Venezuela,,,4.5833333,-61.0833333,,Duncan,Charles,D,1990,8,27,07:48,3:03,0
+Audio ,110171,Cercomacra tyrannina , Dusky Antbird,,,,,,Y,,song,,,,,,,Venezuela,,,4.5833333,-61.0833333,,Duncan,Charles,D,1990,8,26,06:09,1:05,0
+Audio ,110074,Thamnophilus doliatus , Barred Antshrike,,,,,,Y,,duet;song,,,,,,,Costa Rica,Guanacaste,,10.851026,-85.611627,,Medler,Matthew,D,1999,7,11,06:52,4:11,2
+Audio ,101773,Taraba major , Great Antshrike,,Y,Y,,Y,,,call,,,,,,,Bolivia,El Beni,,-14.78,-64.95,,Hennessey,A. Bennett,,1998,6,30,08:24,2:21,0
+Audio ,103359,Thamnophilus doliatus , Barred Antshrike,,,,,,Y,,song,,,,,,,Mexico,Yucatán,,20.9181667,-90.3696667,,Medler,Matthew,D,2003,3,19,09:35,8:51,3
+Audio ,98608,Cercomacra tyrannina , Dusky Antbird,Y,,Y,,Y,,,call,,,,,,,Guyana,Upper Takutu-Upper Essequibo,,3.7336833,-58.722,,Finch,Davis,W,1997,11,19,06:30,1:27,0
+Audio ,88671,Taraba major , Great Antshrike,Y,,Y,,Y,,,call,,,,,,,Brazil,Mato Grosso,,,,,Marantz,Curtis,A,1997,11,1,17:33,5:24,0
+Audio ,88670,Taraba major , Great Antshrike,Y,,Y,,,Y,,song,,,,,,,Brazil,Mato Grosso,,,,,Marantz,Curtis,A,1997,11,1,17:20,2:26,0
+Audio ,89619,Taraba major , Great Antshrike,,,Y,,,Y,,song,,,,,,,Mexico,Chiapas,,16.7666667,-90.95,,Duncan,Charles,D,1993,2,23,17:00,1:24,0
+Audio ,86817,Thamnophilus doliatus , Barred Antshrike,Y,Y,Y,,,Y,,song,,,,,,,Ecuador,,,-0.55,-79.37,,Wall,John,W,1992,10,29,00:00,1:45,0
+Audio ,89494,Cercomacra tyrannina , Dusky Antbird,Y,Y,Y,,,Y,,song,,,,,,,Mexico,Chiapas,,16.4833333,-92.05,,Duncan,Charles,D,1992,11,25,11:10,2:16,0
+Audio ,81865,Thamnophilus doliatus , Barred Antshrike,,,,,,,,,,,,,,,Costa Rica,Alajuela,,9.7833333,-84.6166667,,Duncan,Charles,D,1997,7,18,10:52,1:27,0
+Audio ,81693,Thamnophilus doliatus , Barred Antshrike,Y,Y,,,,Y,,song,,,,,,,Colombia,Tolima,,4.07,-74.7,,Donahue,Paul,K,1986,6,7,17:00,1:00,0
+Audio ,81007,Taraba major , Great Antshrike,,,,,,,,,,,,,,,Colombia,Meta,,2.6666667,-74.1666667,,Jimenez,Ivan,,1997,6,10,00:00,2:07,0
+Audio ,81002,Taraba major , Great Antshrike,,,,,,,,,,,,,,,Colombia,Meta,,2.6666667,-74.1666667,,Jimenez,Ivan,,1997,6,10,00:00,1:59,0
+Audio ,84423,Taraba major , Great Antshrike,,,,,,Y,,song,,,,,,,Ecuador,Pichincha,,-0.33,-79.27,,Rowlett,Rose Ann,,1984,6,18,00:00,:35,0
+Audio ,70834,Cercomacra tyrannina , Dusky Antbird,Y,,Y,,,Y,,song,,,,,,,Belize,Toledo,,,,,Parker,"Theodore A., III",,1992,4,4,00:00,5:28,0
+Audio ,70035,Cercomacra tyrannina , Dusky Antbird,,,,,Y,Y,,call;song,,,,,,,Guyana,Upper Takutu-Upper Essequibo,,3.4166667,-59.5666667,,Parker,"Theodore A., III",,1993,2,5,00:00,1:29,0
+Audio ,70029,Cercomacra tyrannina , Dusky Antbird,Y,Y,,,,Y,,duet;song,,,,,,,Guyana,Upper Takutu-Upper Essequibo,,3.4166667,-59.5666667,,Parker,"Theodore A., III",,1993,2,5,00:00,:46,0
+Audio ,69564,Taraba major , Great Antshrike,,,,,,Y,,song,,,,,,,Ecuador,Manabí,,-1.6,-80.7,,Parker,"Theodore A., III",,1991,1,21,00:00,2:43,0
+Audio ,69562,Taraba major , Great Antshrike,,,,,,,,,,,,,,,Ecuador,Manabí,,-1.6,-80.7,,Parker,"Theodore A., III",,1991,1,21,00:00,4:14,0
+Audio ,72340,Taraba major , Great Antshrike,Y,,Y,,,Y,,song,,,,,,,Guyana,Upper Takutu-Upper Essequibo,,,,,Finch,Davis,W,1994,3,9,07:00,4:11,0
+Audio ,72334,Thamnophilus doliatus , Barred Antshrike,Y,,Y,,,Y,,song,,,,,,,Guyana,Upper Takutu-Upper Essequibo,,,,,Finch,Davis,W,1994,3,7,11:20,:39,0
+Audio ,68137,Cercomacra tyrannina tyrannina,,Y,Y,Y,,,Y,,duet;song,,,,,,,Venezuela,Amazonas,,5.67,-67.58,,Coopmans,Paul,,1994,1,28,07:15,2:43,0
+Audio ,65974,Cercomacra tyrannina , Dusky Antbird,Y,Y,,,Y,Y,,call;duet;song,,,,,,,Guyana,Upper Takutu-Upper Essequibo,,3.3811111,-59.5058333,,Parker,"Theodore A., III",,1993,2,5,00:00,2:27,0
+Audio ,64738,Taraba major , Great Antshrike,Y,,Y,,,Y,,song,,,,,,,Brazil,Amazonas,,,,,Zimmer,Kevin,J,1993,1,23,00:00,:55,0
+Audio ,64725,Thamnophilus doliatus , Barred Antshrike,,Y,,,,Y,,counter singing;song,,,,,,,Brazil,Amazonas,,,,,Zimmer,Kevin,J,1993,1,23,00:00,:32,0
+Audio ,68525,Cercomacra tyrannina , Dusky Antbird,,,Y,,,Y,,song,,,,,,,Ecuador,Pichincha,,-0.3333333,-79,,Kerr,Donald,J,1994,2,23,12:30,1:59,0
+Audio ,68524,Taraba major , Great Antshrike,,,Y,,,Y,,song,,,,,,,Ecuador,Pichincha,,-0.3333333,-79,,Kerr,Donald,J,1994,2,23,12:20,3:02,0
+Audio ,68523,Cercomacra tyrannina , Dusky Antbird,,,Y,,,Y,,song,,,,,,,Ecuador,Pichincha,,-0.3333333,-79,,Kerr,Donald,J,1994,2,23,12:15,:58,0
+Audio ,68521,Taraba major , Great Antshrike,,,Y,,,Y,,song,,,,,,,Ecuador,Pichincha,,-0.3333333,-79,,Kerr,Donald,J,1994,2,23,11:45,1:19,0
+Audio ,61097,Taraba major , Great Antshrike,,,,,,Y,,song,,,,,,,Venezuela,,,7.9666667,-61.8833333,,Schwartz,Paul,A,1967,4,22,00:00,3:24,0
+Audio ,61095,Taraba major , Great Antshrike,,,,,,,,,,,,,,,Venezuela,Aragua,,10.42,-67.28,,Schwartz,Paul,A,1963,9,4,08:00,2:57,0
+Audio ,60950,Cercomacra tyrannina , Dusky Antbird,,,Y,,,Y,,song,,,,,,,Venezuela,,,6,-61.5,,Macaulay,Linda,R,1992,2,5,07:00,2:45,0
+Audio ,56544,Cercomacra tyrannina , Dusky Antbird,,Y,Y,,Y,,,call,,,,,,,Costa Rica,Puntarenas,,,,,Macaulay,Linda,R,1991,12,4,11:30,:41,0
+Audio ,56535,Cercomacra tyrannina , Dusky Antbird,,,Y,,,Y,,song,,,,,,,Costa Rica,Puntarenas,,,,,Macaulay,Linda,R,1991,12,4,07:55,1:25,0
+Audio ,56528,Cercomacra tyrannina , Dusky Antbird,Y,Y,Y,,,,,,,,,,,,Costa Rica,Puntarenas,,,,,Macaulay,Linda,R,1991,12,4,07:45,3:32,0
+Audio ,56526,Cercomacra tyrannina , Dusky Antbird,Y,Y,Y,,Y,,,call,,,,,,,Costa Rica,Puntarenas,,,,,Macaulay,Linda,R,1991,12,4,06:40,1:30,0
+Audio ,57764,Cercomacra tyrannina , Dusky Antbird,Y,Y,Y,,,Y,,duet;song,,,,,,,Mexico,Chiapas,,,,,Delaney,Dale,,1986,2,21,08:30,:42,0
+Audio ,57210,Taraba major , Great Antshrike,Y,,Y,,Y,,,call,,,,,,,Costa Rica,Heredia,,10.5,-84.5,,Macaulay,Linda,R,1991,12,13,06:35,1:05,0
+Audio ,52504,Taraba major , Great Antshrike,,,,,Y,Y,,call;song,,,,,,,Bolivia,Santa Cruz,,-18.4,-62.02,,Parker,"Theodore A., III",,1990,6,16,00:00,5:03,0
+Audio ,34463,Cercomacra tyrannina , Dusky Antbird,Y,Y,Y,,,Y,,song,,,,,,,Venezuela,,,7.97,-61.88,,Parker,"Theodore A., III",,1985,2,23,07:35,:48,0
+Audio ,77965,Taraba major , Great Antshrike,Y,,Y,,,Y,,song,,,,,,,Guyana,Upper Takutu-Upper Essequibo,,,,,Finch,Davis,W,1994,12,5,07:15,1:48,3
+Audio ,77966,Cercomacra tyrannina , Dusky Antbird,Y,,Y,,,Y,,song,,,,,,,Guyana,Upper Takutu-Upper Essequibo,,,,,Finch,Davis,W,1994,12,5,10:35,2:50,4
+Audio ,77995,Taraba major , Great Antshrike,,,Y,,,Y,,song,,,,,,,Guyana,Upper Takutu-Upper Essequibo,,,,,Finch,Davis,W,1994,12,9,06:00,1:24,2
+Audio ,74089,Taraba major , Great Antshrike,,,,,,Y,,song,,,,,,,Costa Rica,Limón,,,,,Ross,"David L., Jr.",,1988,2,25,00:00,:29,3
+Audio ,86060,Taraba major , Great Antshrike,,,,,,Y,,song,,,,,,,Ecuador,Napo,,-0.45,-76.28,,Wall,John,W,1992,10,20,07:00,:16,2
+Audio ,84987,Cercomacra tyrannina , Dusky Antbird,Y,Y,Y,,,Y,,duet;song,,,,,,,Guyana,Demerara-Mahaica,,,,,Finch,Davis,W,1993,1,23,17:00,1:59,2
+Audio ,84941,Cercomacra tyrannina , Dusky Antbird,Y,,Y,,,Y,,song,,,,,,,Guyana,Cuyuni-Mazaruni,,,,,Finch,Davis,W,1991,1,25,12:00,2:01,2
+Audio ,147355,Thamnophilus doliatus , Barred Antshrike,Y,,Y,,,Y,,song,,,,,,,Peru,Cuzco [Cusco],,-12.5477778,-73.1061667,,Robbins,Mark,B,2009,4,6,05:55,1:56,2
+Audio ,144821,Thamnophilus doliatus , Barred Antshrike,Y,,Y,,,Y,,song,,,,,,,Mexico,Campeche,,18.2333333,-90.2,,Robbins,Mark,B,1998,3,9,09:30,:59,2
+Audio ,145222,Thamnophilus doliatus , Barred Antshrike,Y,,Y,,,Y,,song,,,,,,,Guyana,,,2.8166667,-59.8166667,,Robbins,Mark,B,2000,11,12,06:50,2:19,2
+Audio ,144725,Thamnophilus doliatus , Barred Antshrike,Y,,Y,,,Y,,song,,,,,,,Mexico,Yucatán,,21.4333333,-88.5666667,,Robbins,Mark,B,1998,2,25,00:00,1:01,2
+Audio ,144686,Cercomacra tyrannina , Dusky Antbird,Y,Y,Y,,,Y,,duet;song,,,,,,,Guyana,,,7.3666667,-60.4833333,,Robbins,Mark,B,1997,10,3,07:00,1:16,2
+Audio ,144680,Thamnophilus doliatus , Barred Antshrike,Y,,Y,,,Y,,song,,,,,,,Guyana,,,7.3666667,-60.4833333,,Robbins,Mark,B,1997,9,29,05:50,:44,2
+Audio ,145501,Thamnophilus doliatus , Barred Antshrike,Y,,,,,Y,,song,,,,,,,Guyana,,,8.25,-59.7333333,,Robbins,Mark,B,2002,3,22,08:15,1:06,2
+Audio ,145500,Taraba major , Great Antshrike,Y,,,,,Y,,song,,,,,,,Guyana,,,8.25,-59.7333333,,Robbins,Mark,B,2002,3,22,08:00,1:38,2
+Audio ,145487,Taraba major , Great Antshrike,,Y,,,Y,,,call,,,,,,,Guyana,,,8.25,-59.7333333,,Robbins,Mark,B,2002,3,20,06:50,1:17,2
+Audio ,144969,Cercomacra tyrannina , Dusky Antbird,Y,,Y,,Y,,,call,,,,,,,Guyana,,,2.3666667,-59.45,,Robbins,Mark,B,2000,3,19,07:00,1:17,2
+Audio ,145426,Taraba major , Great Antshrike,Y,Y,,,,Y,,song,,,,,,,Guyana,,,8.25,-59.7333333,,Robbins,Mark,B,2002,3,15,18:00,1:17,2
+Audio ,145866,Thamnophilus doliatus , Barred Antshrike,Y,Y,,,,Y,,song,,,,,,,El Salvador,La Paz,,13.3433333,-88.85,,Robbins,Mark,B,2004,4,4,06:45,2:24,2
+Audio ,143717,Taraba major , Great Antshrike,,,,,Y,,,call,,,,,,,Peru,Madre de Dios,,-12.8666667,-71.3666667,,Zyskowski,Krzysztof,,1997,10,23,05:36,:49,2
+Audio ,144193,Taraba major , Great Antshrike,Y,,Y,,,Y,,song,,,,,,,Paraguay,Alto Paraguay,,-20.6666667,-59.8333333,,Robbins,Mark,B,1995,10,29,18:00,1:47,3
+Audio ,144153,Thamnophilus doliatus , Barred Antshrike,Y,,Y,,Y,,,call,,,,,,,Paraguay,Alto Paraguay,,-20.4333333,-60.3166667,,Robbins,Mark,B,1995,10,23,06:30,1:26,3
+Audio ,144595,Cercomacra tyrannina , Dusky Antbird,Y,,Y,,,Y,,song,,,,,,,Guyana,,,7.3666667,-60.4833333,,Robbins,Mark,B,1997,9,15,06:00,1:49,2
+Audio ,144558,Cercomacra tyrannina , Dusky Antbird,Y,,Y,,,Y,,song,,,,,,,Guyana,,,4.3333333,-58.85,,Robbins,Mark,B,1997,3,19,06:00,1:46,2
+Audio ,143501,Taraba major , Great Antshrike,Y,,Y,,Y,,,call,,,,,,,Paraguay,Alto Paraguay,,-20.6666667,-59.8333333,,Zyskowski,Krzysztof,,1995,10,30,06:58,:37,3
+Audio ,143489,Taraba major , Great Antshrike,Y,,Y,,,Y,,song,,,,,,,Paraguay,Alto Paraguay,,-20.6666667,-59.8333333,,Zyskowski,Krzysztof,,1995,10,26,08:10,2:01,3
+Audio ,143477,Thamnophilus doliatus , Barred Antshrike,Y,Y,Y,,,Y,,counter singing;song,,,,,,,Paraguay,Alto Paraguay,,-20.4333333,-60.3166667,,Zyskowski,Krzysztof,,1995,10,22,0720,1:36,4
+Audio ,102408,Cercomacra tyrannina , Dusky Antbird,Y,,Y,,,,,,,,,,,,Venezuela,,,7.3333333,-64.9166667,,Macaulay,Linda,R,1995,1,27,18:00,2:06,3
+Audio ,101752,Taraba major , Great Antshrike,,,,,,,,,,,,,,,Bolivia,El Beni,,-14.78,-64.95,,Hennessey,A. Bennett,,1998,6,19,16:20,1:45,3
+Audio ,98694,Taraba major , Great Antshrike,Y,,Y,,,Y,,song,,,,,,,Guyana,Upper Takutu-Upper Essequibo,,2.9937833,-58.90995,,Finch,Davis,W,1998,11,8,16:19,2:13,2
+Audio ,98692,Cercomacra tyrannina , Dusky Antbird,,Y,Y,,Y,,,call,,,,,,,Guyana,Upper Takutu-Upper Essequibo,,2.9937833,-58.90995,,Finch,Davis,W,1998,11,8,11:00,:40,1
+Audio ,98681,Taraba major , Great Antshrike,Y,Y,Y,,,Y,,song,,,,,,,Guyana,Upper Takutu-Upper Essequibo,,2.9476667,-58.9665333,,Finch,Davis,W,1998,11,6,09:21,3:34,2
+Audio ,98676,Cercomacra tyrannina , Dusky Antbird,Y,Y,Y,,Y,,,call,,,,,,,Guyana,Upper Takutu-Upper Essequibo,,2.9507167,-59.05445,,Finch,Davis,W,1998,11,4,11:00,1:10,2
+Audio ,90672,Cercomacra tyrannina , Dusky Antbird,,,,,,Y,,song,,,,,,,Guyana,Upper Takutu-Upper Essequibo,,3.3,-59.5,,Kerr,Donald,J,1994,12,8,06:00,2:38,3
+Audio ,90668,Taraba major , Great Antshrike,,,Y,,,Y,,song,,,,,,,Guyana,Upper Takutu-Upper Essequibo,,3.3,-59.5,,Kerr,Donald,J,1994,12,7,18:00,1:00,2
+Audio ,90650,Cercomacra tyrannina , Dusky Antbird,Y,,Y,,,Y,,song,,,,,,,Guyana,Upper Takutu-Upper Essequibo,,2.9,-59.5,,Kerr,Donald,J,1994,12,5,10:40,2:16,3
+Audio ,90644,Thamnophilus doliatus , Barred Antshrike,,,Y,,,Y,,song,,,,,,,Guyana,Upper Takutu-Upper Essequibo,,2.9,-59.5,,Kerr,Donald,J,1994,12,5,06:48,2:02,3
+Audio ,90641,Thamnophilus doliatus , Barred Antshrike,,,Y,,,Y,,song,,,,,,,Guyana,Upper Takutu-Upper Essequibo,,2.9,-59.5,,Kerr,Donald,J,1994,12,5,05:45,:59,3
+Audio ,90043,Taraba major , Great Antshrike,Y,,Y,,,Y,,song,,,,,,,Ecuador,Loja,,-3.5,-80.45,,Sterling,John,,1993,1,28,17:50,1:30,2
+Audio ,90420,Taraba major , Great Antshrike,,,Y,,,Y,,song,,,,,,,Ecuador,Pichincha,,-0.03,-78.8,,Kerr,Donald,J,1996,3,13,07:30,2:06,2
+Audio ,90192,Taraba major , Great Antshrike,Y,,Y,,,Y,,song,,,,,,,Bolivia,Santa Cruz,,-17.85,-60.17,,Cox,Guy,,1992,10,4,00:00,:36,3
+Audio ,87566,Thamnophilus doliatus , Barred Antshrike,Y,Y,Y,,,Y,,song,,,,,,,Guyana,Essequibo Islands-West Demerara,,,,,Finch,Davis,W,1993,1,30,06:30,3:55,3
+Audio ,73485,Taraba major , Great Antshrike,,,,,,Y,,song,,,,,,,Costa Rica,Puntarenas,,,,,Ross,"David L., Jr.",,1988,1,25,00:00,3:18,2
+Audio ,76675,Cercomacra tyrannina , Dusky Antbird,,,,,,Y,,duet;song,,,,,,,Costa Rica,Puntarenas,,,,,Marantz,Curtis,A,1991,4,7,05:50,:23,3
+Audio ,73420,Thamnophilus doliatus , Barred Antshrike,,,,,,Y,,song,,,,,,,Costa Rica,Guanacaste,,,,,Ross,"David L., Jr.",,1988,1,7,00:00,2:08,3
+Audio ,76670,Cercomacra tyrannina , Dusky Antbird,,,,,,,,,,,,,,,Costa Rica,Puntarenas,,,,,Marantz,Curtis,A,1991,4,7,05:34,1:43,3
+Audio ,76608,Taraba major , Great Antshrike,Y,Y,Y,,,Y,,song,,,,,,,Costa Rica,Heredia,,,,,Marantz,Curtis,A,1991,4,1,05:54,2:33,2
+Audio ,57357,Taraba major , Great Antshrike,,,Y,,,Y,,song,,,,,,,Costa Rica,Puntarenas,,,,,Ross,"David L., Jr.",,1988,12,30,08:00,12:42,4
+Audio ,72447,Taraba major , Great Antshrike,Y,Y,Y,,,Y,,song,,,,,,,Guyana,Upper Takutu-Upper Essequibo,,,,,Finch,Davis,W,1995,4,30,07:45,1:25,2
+Audio ,73238,Thamnophilus doliatus , Barred Antshrike,,,,,,Y,,song,,,,,,,Costa Rica,Guanacaste,,,,,Ross,"David L., Jr.",,1991,2,14,08:30,2:06,3
+Audio ,57497,Cercomacra tyrannina , Dusky Antbird,Y,Y,Y,,,Y,,song,,,,,,,Costa Rica,Heredia,,,,,Ross,"David L., Jr.",,1991,2,25,07:11,1:26,2
+Audio ,45889,Cercomacra tyrannina , Dusky Antbird,,,,,,,,,,,,,,,Belize,Cayo,,,,,Plymire,Margery,R,,,,00:00,2:28,3
+Audio ,45812,Thamnophilus doliatus , Barred Antshrike,,,,,,,,,,,,,,,Belize,Belize,,,,,Plymire,Margery,R,,,,00:00,1:22,2
+Audio ,31057,Taraba major , Great Antshrike,Y,,Y,,,Y,,song,,,,,,,Suriname,,,,,,Davis,Thomas,H,1982,11,5,17:05,2:05,3
+Audio ,34859,Taraba major , Great Antshrike,,,,,,,,,,,,,,,Brazil,Mato Grosso,,,,,Bierregaard,Richard,O,1985,7,13,15:00,1:35,1
+Audio ,31211,Taraba major , Great Antshrike,Y,,Y,,Y,,,call,,,,,,,Panama,Darién,,,,,Davis,Thomas,H,1983,3,10,17:55,1:42,3
+Audio ,41061,Cercomacra tyrannina , Dusky Antbird,,,,,,Y,,song,,,,,,,Brazil,Amazonas,,-1.9833333,-59.5,,Bierregaard,Richard,O,1987,11,29,06:00,6:38,3
+Audio ,31185,Taraba major , Great Antshrike,Y,,Y,,Y,,,call,,,,,,,Panama,Darién,,,,,Davis,Thomas,H,1983,3,9,07:10,2:48,3
+Audio ,41011,Cercomacra tyrannina , Dusky Antbird,,,,,Y,,,call,,,,,,,Brazil,Amazonas,,-1.9833333,-59.5,,Bierregaard,Richard,O,1987,11,27,08:12,2:29,2
+Audio ,31126,Cercomacra tyrannina , Dusky Antbird,Y,,Y,,Y,,,call,,,,,,,Panama,Panamá,,,,,Davis,Thomas,H,1983,3,2,18:40,:57,3
+Audio ,31113,Cercomacra tyrannina , Dusky Antbird,Y,Y,Y,,Y,,,call,,,,,,,Panama,Panamá,,,,,Davis,Thomas,H,1983,2,28,09:55,1:07,3
+Audio ,182517,Cercomacra tyrannina , Dusky Antbird,,,,,,,,,,,,,,,Suriname,Brokopondo,,5.0166667,-55.5666667,,Davis,Thomas,,1978,3,11,,:20,2
+Audio ,179759,Thamnophilus doliatus , Barred Antshrike,,Y,Y,,,Y,,song,,,,,,,Bolivia,Santa Cruz,,-18.18,-63.642,,Brady,Matthew,,2013,7,26,0820,3:51,2
+Audio ,182565,Cercomacra tyrannina , Dusky Antbird,Y,,Y,,,Y,,song,,,,,,,Suriname,Sipaliwini,,3.9868301,-56.1071777,,Davis,Thomas,,1979,2,2,935,:50,3
+Audio ,182499,Cercomacra tyrannina , Dusky Antbird,,,,,,,,,,,,,,,Suriname,Brokopondo,,5.0166667,-55.5666667,,Davis,Thomas,,1978,3,7,,:28,2
+Audio ,177025,Taraba major , Great Antshrike,Y,,Y,,,Y,,song,,,,,,,Argentina,Corrientes,,-28.016601,-58.037274,,Areta,Juan,I,2005,10,12,7:20,3:33,3
+Audio ,168044,Thamnophilus doliatus , Barred Antshrike,,,,,,,,,,,,,,,Bolivia,Santa Cruz,,-17.9175,-63.1711111,,Vidoz,Julian Quillen,,2009,6,27,,3:26,2
+Audio ,168057,Taraba major , Great Antshrike,Y,,,,,,,,,,,,,,Bolivia,Santa Cruz,,-17.8791667,-63.2816667,,Vidoz,Julian Quillen,,2009,7,17,,1:43,2
+Audio ,46943,Cercomacra tyrannina , Dusky Antbird,,,,,,,,,,,,,,,Brazil,Amazonas,,,,,Bierregaard,Richard,,,,,,1:58,3
+Audio ,46941,Cercomacra tyrannina , Dusky Antbird,,,,,,,,,,,,,,,Brazil,Amazonas,,,,,Bierregaard,Richard,,,,,,4:35,4
+Audio ,168179,Taraba major , Great Antshrike,,,,,,,,,,,,,,,Bolivia,Santa Cruz,,-17.4275,64.1308333,,Vidoz,Julian Quillen,,2010,7,22,,1:17,2
+Audio ,46931,Cercomacra tyrannina , Dusky Antbird,,,,,,,,,,,,,,,Brazil,Amazonas,,,,,Bierregaard,Richard,,,,,,1:18,4
+Audio ,46895,Cercomacra tyrannina , Dusky Antbird,,,,,,,,,,,,,,,Brazil,,,,,,Bierregaard,Richard,,,,,0730,1:43,3
+Audio ,46847,Cercomacra tyrannina , Dusky Antbird,Y,Y,Y,,,,,,,,,,,,,,,,,,Bierregaard,Richard,,,,,1445,7:36,4
+Audio ,46852,Cercomacra tyrannina , Dusky Antbird,,,,,,,,,,,,,,,,,,,,,Bierregaard,Richard,,,,,,2:18,4
+Audio ,46853,Cercomacra tyrannina , Dusky Antbird,Y,Y,Y,,,,,,,,,,,,,,,,,,Bierregaard,Richard,,,,,1430,3:11,4
+Audio ,46855,Cercomacra tyrannina , Dusky Antbird,Y,,Y,,,,,,,,,,,,,,,,,,Bierregaard,Richard,,,,,,1:19,3
+Audio ,46859,Cercomacra tyrannina , Dusky Antbird,,,,,,,,,,,,,,,,,,,,,Bierregaard,Richard,,,,,,1:14,5
+Audio ,46864,Cercomacra tyrannina , Dusky Antbird,Y,Y,Y,,,,,,,,,,,,,,,,,,Bierregaard,Richard,,,,,1235,3:50,5
+Audio ,46865,Cercomacra tyrannina , Dusky Antbird,,,,,,,,,,,,,,,,,,,,,Bierregaard,Richard,,,,,,4:24,4
+Audio ,46893,Cercomacra tyrannina , Dusky Antbird,,,,,,,,,,,,,,,Brazil,,,,,,Bierregaard,Richard,,,,,0718,3:15,4
+Audio ,46965,Cercomacra tyrannina , Dusky Antbird,,,,,,,,,,,,,,,Brazil,Amazonas,,,,,Bierregaard,Richard,,,,,,4:05,3
+Audio ,46994,Thamnophilus doliatus , Barred Antshrike,,,,,,,,,,,,,,,Brazil,Amazonas,,,,,Bierregaard,Richard,,,,,,:09,2
+Audio ,47010,Cercomacra tyrannina , Dusky Antbird,,,,,,,,,,,,,,,Brazil,Amazonas,,,,,Bierregaard,Richard,,,,,,:53,3
+Audio ,46988,Cercomacra tyrannina , Dusky Antbird,,,,,,,,,,,,,,,Brazil,Amazonas,,,,,Bierregaard,Richard,,,,,,3:00,3
+Audio ,46991,Cercomacra tyrannina , Dusky Antbird,,,,,,,,,,,,,,,Brazil,Amazonas,,,,,Bierregaard,Richard,,,,,,1:29,3
+Audio ,169840,Thamnophilus doliatus capistratus , Barred Antshrike (Caatinga),Y,Y,Y,,,,,,,,,,,,Brazil,Bahia,,-12.9333333,-41.65,,Macaulay,Linda,,2012,4,15,,4:42,2
+Audio ,171394,Thamnophilus doliatus , Barred Antshrike,Y,,Y,,,Y,,song,,,,,,,Venezuela,Guárico,,8.5718552,-67.5822258,,McGowan,Jay,,2012,12,27,0629,5:41,3
+Audio ,178107,Cercomacra tyrannina , Dusky Antbird,,,,,,Y,,song,,,,,,,Venezuela,,,,,,Areta,Juan,,2006,11,21,,3:14,2
+Audio ,177559,Taraba major , Great Antshrike,,,,,,Y,,song,,,,,,,Argentina,Entre Ríos,,-32.15,-60.6333333,,Jordan,Emilio,,2013,2,7,0643,1:24,2
+Audio ,177558,Taraba major , Great Antshrike,,,,,Y,Y,,call;song,,,,,,,Argentina,Entre Ríos,,-32.15,-60.6333333,,Jordan,Emilio,,2013,2,7,0640,1:35,2
+Audio ,185748,Cercomacra tyrannina , Dusky Antbird,Y,,Y,,,Y,,song,,,,,,,Costa Rica,Heredia,,10.422,-84.015,,Zyskowski,Krzysztof,,2001,3,19,650,:51,3
+Audio ,184128,Thamnophilus doliatus , Barred Antshrike,Y,Y,Y,,,Y,,Aggression/defense;advertise;song,,,,,,,Costa Rica,Heredia,,10.4333333,-83.9833333,,Marantz,Curtis,,1995,4,10,0612,1:31,2
+Audio ,184339,Thamnophilus doliatus , Barred Antshrike,Y,,Y,,,Y,,counter singing;song,,,,,,,Mexico,Veracruz,,,,,Gulson,Eric,,2013,7,26,0913,1:14,3
+Audio ,184120,Cercomacra tyrannina , Dusky Antbird,Y,,Y,,,Y,,advertise;song,,,,,,,Costa Rica,Heredia,,10.4333333,-83.9833333,,Marantz,Curtis,,1995,4,9,0710,1:23,3
+Audio ,184824,Thamnophilus doliatus , Barred Antshrike,Y,Y,Y,,,Y,,advertise;song,,,,,,,Mexico,Tamaulipas,,23.1275,-99.1385,,Donahue,Paul,,1994,5,8,1623,1:51,2
+Audio ,184893,Thamnophilus doliatus , Barred Antshrike,,,,,Y,,,call,,,,,,,Paraguay,Canindeyú,,-24.1680556,-55.55,,Donahue,Paul,,1995,4,19,1455,:09,1
+Audio ,182576,Taraba major , Great Antshrike,Y,,Y,,,Y,,song,,,,,,,Suriname,Sipaliwini,,3.9868301,-56.1071777,,Davis,Thomas,,1979,2,5,715,1:12,2
+Audio ,184130,Thamnophilus doliatus , Barred Antshrike,Y,Y,Y,,Y,Y,,advertise;call;song,,,,,,,Costa Rica,Heredia,,10.4333333,-83.9833333,,Marantz,Curtis,,1995,4,10,0624,2:21,2
+Audio ,184157,Cercomacra tyrannina , Dusky Antbird,,,Y,,,Y,,advertise;song,,,,,,,Costa Rica,Heredia,,10.4333333,-83.9833333,,Marantz,Curtis,,1995,4,12,0834,2:04,2
+Audio ,184788,Cercomacra tyrannina , Dusky Antbird,,,,,Y,Y,,call;song;subsong,,,,,,,Costa Rica,Heredia,,10.4288,-84.0128,,Ross,"David L., Jr.",,1996,5,23,1005,3:42,3
+Audio ,184843,Thamnophilus doliatus , Barred Antshrike,Y,,Y,,,Y,,advertise;song,,,,,,,Paraguay,Central,,-25.295278,-57.414722,,Donahue,Paul,,1995,2,23,1136,1:03,2
+Audio ,184161,Taraba major , Great Antshrike,,,Y,,,Y,,advertise;forage;song,,,,,,,Costa Rica,Heredia,,10.4333333,-83.9833333,,Marantz,Curtis,,1995,4,12,0929,2:22,2
+Audio ,178416,Cercomacra tyrannina , Dusky Antbird,Y,,Y,,,Y,,song,,,,,,,Venezuela,Bolívar,,7.061,-61.47512,,McGowan,Jay,W,2013,12,19,0913,2:51,3
+Audio ,187941,Taraba major , Great Antshrike,,,Y,,Y,,,call,,,,,,,Peru,Madre de Dios,,-12.121403,-71.089097,,Donahue,Paul,K,1991,8,14,703,4:00,4
+Audio ,185716,Thamnophilus doliatus intermedius,,Y,Y,Y,,Y,Y,,call;song,,,,,,,El Salvador,Morazán,,13.762,-88.2,,Zyskowski,Krzysztof,,2001,7,10,710,1:08,3
+Audio ,178426,Cercomacra tyrannina , Dusky Antbird,Y,,Y,,,Y,,song,,,,,,,Venezuela,Bolívar,,7.061,-61.47512,,McGowan,Jay,W,2013,12,19,0911,:40,2
