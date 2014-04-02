@@ -10,7 +10,7 @@ According to the paper, there are four stages to the project:
 4- Compare and present the performance of classifiers.
 
 Instructions:
-- (Stage 1) In order to get started with my reproduction package, please download the bird sounds data from <Google Drive Link>*, unpack the .zip file in the source folder. 
+- (Stage 1) In order to get started with my reproduction package, please download the bird sounds data from https://drive.google.com/file/d/0B1Ywmwt5sCj3WFZEOGlBTU5sSlE/edit?usp=sharing , unpack the .zip file in the source folder. 
 - The two software packages, SoundRuler and Weka Software, have already been download and included in the repository. However, more information about the softwares can be found at http://soundruler.sourceforge.net/main/ and http://www.cs.waikato.ac.nz/ml/weka/.
 - Now, there are two ways to go ahead. I have implemneted some code in both Python and Matlab. However, going forward, I will only be working on Matlab. Therefore, I am providing instructions on the use of Matlab code. 
 - Run the script 'main.m'. This will upload the data and the soundfiles into Matlab, create a cell matrix with information on the soundfiles.
