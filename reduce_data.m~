@@ -1,0 +1,23 @@
+clear;
+load('scripts/soundfileinfo.mat', 'info', 'N', 'catalog');
+
+dirpath = 'bird_sounds_data_reduced';
+
+%% 1.  Check/Create the directory to put files in
+if exist(dirpath, 'dir')==0
+    mkdir(dirpath);
+else
+   % do nothing 
+end
+   
+
+%% 2. Copy the required files to the new directory
+
+for i=1:N
+    filepath = strcat(dirpath, info{i,2})
+    
+    
+    
+end
+
+

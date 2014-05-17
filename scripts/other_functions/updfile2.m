@@ -1,7 +1,4 @@
-%% Script: Selects the soundfiles to include in the classifier, and uses the
-% gen_feature.m script to 1) split the soundfiles into sections and 2)
-% generate the MelFCC coefficients for them. The MelFCC coeffecienst for
-% all the files are then stored in the folder 'dotMatFiles3/..' 
+%% Script: Updates the corrupted .mat files (for calls) 
 
 % Talha Jawad Ansari 2014 - Contact: tja2117@columbia.edu
 % Columbia University in The City of New York
@@ -106,10 +103,14 @@ for i=1:N,
     else
         calls = load(strcat(dir_calls,info{i,2},'.mat'));
         calls = calls.Y; %Y is the variable name underwhich the calls are stores in the .mat file
+        if isempty(calls{1})
+            disp(strcat('- E: Call:', str2num(info{i,2})));
+            calls = seg2calls(y, fs, strcat(dir_calls,info{i,2})); 
+        end
     end
     N_calls = numel(calls);
     for j=1:numel(calls) % For each call
-        disp(strcat('- - - In Call:',int2str(j),'/',int2str(N_calls)));
+        %disp(strcat('- - - In Call:',int2str(j),'/',int2str(N_calls)));
         % Break each call into pulses
         if exist(strcat(dir_pulses_calls, info{i,2},'_',int2str(j),'.mat'), 'file')==0   
             pulses = seg2pulse(calls{j}, fs, 1000, dir_pulses_calls, false, 'segment');
@@ -119,7 +120,7 @@ for i=1:N,
             pulses = load(strcat(dir_pulses_calls, info{i,2},'_',int2str(j),'.mat'));
             pulses = pulses.Y;
             if isempty(pulses)
-                disp(strcat(str2num(info{i,2}),j));
+                disp(strcat('E: Pulse:',str2num(info{i,2}),j));
                 pulses = seg2pulse(calls{j}, fs, 1000, dir_pulses_calls, false, 'segment');
                 Y=pulses;
                 save(strcat(dir_pulses_calls, info{i,2},'_',int2str(j),'.mat'), 'Y');

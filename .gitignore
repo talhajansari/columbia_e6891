@@ -5,4 +5,6 @@
 # tmp/**/*
 bird_sounds_data
 bird_sounds_data/*
+bird_sounds_data.zip
 scripts/dir_*
+bird_sounds_data*

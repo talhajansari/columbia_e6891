@@ -71,7 +71,7 @@ cnt_species(3) = sum(labels_files==3);
 for i=1:length(species)
     disp(strcat('- ',' ',species(i),':',' ',int2str(cnt_species(i)),' files'));
 end
-save('soundfileinfo.mat','info', 'labels_files', 'filepath', 'map2raw', 'species', 'cnt_species', 'fs', 'N', 'D', 'dirs_all');
+save('soundfileinfo.mat','info', 'labels_files', 'filepath', 'map2raw', 'species', 'cnt_species', 'fs', 'N', 'D', 'dirs_all', 'include');
 
 %% 4. Segment soundfiles, generate features for all the segment soundfiles, save the segments and features in .mat files
 
@@ -85,7 +85,8 @@ calls_all = {};
 labels_calls = [];
 labels_pulses = [];
 for i=1:N,
-    disp(strcat('- In File:',int2str(i),'/',int2str(N)));
+    disp(strcat(' ', num2str(i/N),'%','complete'));
+    %disp(strcat('- In File:',int2str(i),'/',int2str(N)));
     % Break sound into Calls
     if exist(strcat(dir_calls,info{i,2},'.mat'), 'file')==0     % before loading the soundfile, see if is already loaded and saved into .mat before
         [y, fs_orig] = soundread(filepath{i}, 'wav');
@@ -109,12 +110,12 @@ for i=1:N,
         calls = calls.Y; %Y is the variable name underwhich the calls are stores in the .mat file
     end
     N_calls = numel(calls);
-    disp(strcat('- - # Calls generated: ',int2str(N_calls)));
+    %disp(strcat('- - # Calls generated: ',int2str(N_calls)));
     labels_calls(end+1:end+N_calls,1) = labels_files(i);
     mfcc_calls = cell(N_calls,1);                                   
     pulses_calls = cell(N_calls,1);
     for j=1:numel(calls) % For each call
-        disp(strcat('- - - In Call:',int2str(j),'/',int2str(N_calls)));
+        %disp(strcat('- - - In Call:',int2str(j),'/',int2str(N_calls)));
         if exist(strcat(dir_mfcc_calls, info{i,2},'.mat'), 'file')==0 
             mfcc_calls{j} = melcepst(calls{j}, fs);         % find the MFCC          
         else
@@ -132,7 +133,7 @@ for i=1:N,
         end
         N_pulses = numel(pulses);
         pulses_calls{j} = pulses;
-        disp(strcat('- - - # Pulses generated: ',int2str(N_pulses)));
+        %disp(strcat('- - - # Pulses generated: ',int2str(N_pulses)));
         labels_pulses(end+1:end+length(calls),1) = labels_calls(j);
         
         % For each pulse, find MFCC
@@ -140,7 +141,7 @@ for i=1:N,
         
         if exist(strcat(dir_mfcc_pulses, info{i,2},'_',int2str(j),'.mat'), 'file')==0 
             for k=1:N_pulses
-                disp(strcat('- - - - In Pulse:',int2str(k),'/',int2str(N_pulses)));
+                %disp(strcat('- - - - In Pulse:',int2str(k),'/',int2str(N_pulses)));
                 mfcc_pulses{k} = melcepst(pulses{k}, fs);
             end
             X = mfcc_pulses;
@@ -184,6 +185,7 @@ save ('seginfo.mat', 'labels_calls','labels_pulses');
     % datasets using ID3 and J4.8. The the new datasets are named
     % 'features_nom_id3.csv' and 'features_nom_j48.csv'
 
+%% 8. Classification again!
     % Open Weka Software> Explorer> OpenFile> Select: 'features_nom_id3.csv'
     % In Weka, go to Tab: Classification>Classifier>Open> Select:
     % 'classifier/bayes/NaiveBayes; -> Start. Note down the accuracy

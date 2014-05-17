@@ -147,12 +147,13 @@ def fundFreq (filepath, fs=30000):
 		#print pulse_t
 		for elem in pulse_t:
 			pulse.append(elem[0])
-		pulses_ffreq.append(freq_from_fft(pulse, fs))
+		pulses_ffreq.append(freq_from_fft(pulse, fs)) # Fundamental Frequency
 	if N_pulses == 1:
-		ffreq_halfcall = pulses_ffreq[0]
+		ffreq_halfcall = pulses_ffreq[0]			  
 	else:	
-		ffreq_halfcall = sum(pulses_ffreq[int(N_pulses/2):])/(N_pulses/2)
-	return pulses_ffreq, ffreq_halfcall
+		ffreq_halfcall = sum(pulses_ffreq[int(N_pulses/2):])/(N_pulses/2) # Average Fund Frequency during last half of call
+	max_ffreq = max(pulses_ffreq)
+	return pulses_ffreq, ffreq_halfcall, max_ffreq
 
 
 

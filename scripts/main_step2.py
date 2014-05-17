@@ -14,7 +14,8 @@ from custom_methods import *
 from important_functions import *
 
 
-TYPE = 'P' # Leave this to type 'P', meaning that we are using pulse level features. The other value, 'C' for calls has not been tested
+TYPE = 'P' # Leave this to type 'P', meaning that we are using pulse level features.
+# The other value, 'C' for calls has not been tested - and will not work for now
 
 ##  Load info about the sound files
 soundinfo = loadmat('soundfileinfo', variable_names=['info','filepath', 'labels_files', 'dirs_all'])
@@ -55,7 +56,7 @@ elif TYPE=='P':
 	labels_pulses = []
 	for i in range(N):
 		for j in range(calls_perfile[i]):
-			call_ffreq, call_ffreq_lasthalf = fundFreq(dirs_all[6][0]+str(catalog[i])+'_'+str(j+1)+'.mat') #dominant freq vector, and mean of dominant freq in the last half of call
+			call_ffreq, call_ffreq_lasthalf, max_ffreq = fundFreq(dirs_all[6][0]+str(catalog[i])+'_'+str(j+1)+'.mat') #dominant freq vector, and mean of dominant freq in the last half of call
 			num_pulses = len(call_ffreq) # number of pulses in a call
 			x = get_feature(dirs_all[3][0]+str(catalog[i])+'_'+str(j+1)+'.mat', debug=False) # MFCC features
 			for k in range(len(x)):
@@ -63,6 +64,7 @@ elif TYPE=='P':
 				pulse_feat.append(call_ffreq[k]) # fundamental freq
 				pulse_feat.append(call_ffreq_lasthalf) # fundamental freq of last half of call
 				pulse_feat.append(num_pulses) # number of pulse
+				pulse_feat.append(max_ffreq)
 				features_pulses.append(pulse_feat)
 				labels_pulses.append(labels_old[i][0])
 	N_pulses = len(features_pulses)
@@ -74,6 +76,7 @@ elif TYPE=='P':
 
 ## Carry out Vector Quantization (function defined in custom_methods.py) and save the features in a .csv file
 features_nom = vectorQuantization(features, bits=6)
+print ("Number of features: " + str(len(features_nom[0])))
 writeToCSV(file_name, data=features_nom, labels=labels, incldueheaders=True)
 
 
@@ -87,12 +90,12 @@ D = len(data[0])
 
 ratio = [0, 21, 5, 0.9]
 cnt = countByClass(labels)
-print ("Initial count per class is: " + str(cnt))
+print ("Initial count per class is: " + str(cnt[1:]))
 num_1 = cnt[1]
 num_2 = int((cnt[1]/ratio[1])*ratio[2])
 num_3 = int((cnt[1]/ratio[1])*ratio[3])
 num_req = [0, num_1, num_2, num_3]
-print ("Number required is: " + str(num_req))
+print ("Number required is: " + str(num_req[1:]))
 
 # Code to maintain 21:9:0.9 ratio between species
 data_split = [[], [],[],[]]
@@ -122,7 +125,7 @@ for i in range(num_3):
 labels_new = getColumn(data_in=data_new, ind=D-1)
 data_new
 cnt_new = countByClass(labels_new)
-print ("Revised count per class is: " + str(cnt_new))
+print ("Revised count per class is: " + str(cnt_new[1:]))
 writeToCSV('features_nom_revised.csv', data=data_new, labels=labels_new, incldueheaders=True, headers=headers, labelsincluded=True)
 
 
