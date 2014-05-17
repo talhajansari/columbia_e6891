@@ -35,9 +35,8 @@ There is, however, a third approach too, a reduced data set containing only the 
     * In Weka, go to Tab: Classification>Classifier>Open> Select: 'classifier/bayes/NaiveBayes; -> Start. Note down the accuracy
     * Open Weka Software> Explorer> OpenFile> Select: 'features_nom_j48.csv'
     * In Weka, go to Tab: Classification>Classifier>Open> Select: 'classifier/bayes/NaiveBayes; -> Start. Note down the accuracy
-
+* Compare the accuracies of the five approaches to classification
 
 
 If you have any questions, feel free to email at tja2117@columbia.edu
-
 Talha Jawad Ansari (tja2117), 2014.
