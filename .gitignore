@@ -4,3 +4,5 @@
 # Can also ignore all directories and files in a directory.
 # tmp/**/*
 bird_sounds_data
+bird_sounds_data/*
+scripts/dir_*
