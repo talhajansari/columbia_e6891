@@ -11,7 +11,9 @@ Software Pre-requisites. In order to run the project, you should:
 
 
 Data:
-Data is provided by Macaulay Library at Cornell University. I am still finding an efficient way to share the date. Please email me at tja2117@columbia.edu for a quick access to the data. The data is of two forms, the original sound files which were provided by the Macaulay Library, and the .mat files which are (I have) geneated in main_step1.m file, and which are saved. 
+Data is provided by Macaulay Library at Cornell University. I am still finding an efficient way to share the date. Please email me at tja2117@columbia.edu for a quick access to the data. 
+There are two ways to proceed with the project from the perspective of data. 1) Use the original sound recordings which have been provided under license by the Macaulay Library, 2) Use .mat files, which already contain the segmented sound data and its MFCC features. Using the later approach will save a lot of time (as sounds will not have to be segmented) but .mat files take up about 15GB of space. Using the first approach requires less initial data, around 3 GB, but takes massive processing time. On my Macbook air, just running the segmentation algorithm on all calls took over 17 hours to complete! The scripts are designed to work with both the approaches, without any manual interference. If a .mat file is available for any file/call, the script use them instead of creating them from scratch.
+
 
 
 Step by step Instructions:
