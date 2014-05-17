@@ -18,19 +18,23 @@ There is, however, a third approach too, a reduced data set containing only the 
 
 #Step by step Instructions:
 1. Clone the Github repository to your local computer
-* Download the zipped file bird_sounds_data_reduced.zip from <link will be provided later> and put it in the source folder (directory where the script folder is), unzip bird_sounds_data_reduced.zip and rename the unzipped foler bird_sounds_data_reduced to bird_sounds_data.
-* Go to the directory named ‘scripts’
+* Download the zipped file *bird_sounds_data_reduced.zip* from *link will be provided later* and put it in the source folder (directory where the *script* folder is), unzip *bird_sounds_data_reduced.zip* and rename the unzipped folder *bird_sounds_data_reduced* to *bird_sounds_data*.
+* Go to the directory named *scripts*
 * Open Matlab and run main_step1.m (wait for it to finish)
 * Run main_step2.py in Python
 * Classification (1,2,3 out of 5 approaches)
   * Open Weka Software> Explorer> OpenFile> Select: 'features_nom_revised.csv'
-Select Filters > unsupervised > attributes > numericToNominal, and apply!
+  * In Weka, go to Tab Explorer>Filters> select: unsupervised > attributes > numericToNominal, and apply!
+  
   * In Weka, go to Tab: Classification>Classifier>Open> Select: 'classifier/trees/id3; -> Start. Note down the accuracy *** IMPORTANT *** Copy the tree from the output of Weka (only the tree) and save it in new 'tree_id3.txt' file.
+  
   * In Weka, go to Tab: Classification>Classifier>Open> Select: 'classifier/trees/j48; -> Start. Note down the accuracy *** IMPORTANT *** Copy the tree from the output of Weka (only thetree) and save it in new 'tree_j48.txt' file.
+  
   * In Weka, go to Tab: Classification>Classifier>Open> Select: 'classifier/bayes/NaiveBayes; -> Start. Note down the accuracy
 * Dimensionality Reduction, carried out in Python script 'main_step3.py'. Please run main_step3.py to create two new .csv files, with reduced datasets using ID3 and J4.8. The the new datasets are named 'features_nom_id3.csv' and 'features_nom_j48.csv'
 * Classification (4, 5 approach)
     * Open Weka Software> Explorer> OpenFile> Select: 'features_nom_id3.csv'
+    * In Weka, go to Tab Explorer>Filters> select: unsupervised > attributes > numericToNominal, and apply!
     * In Weka, go to Tab: Classification>Classifier>Open> Select: 'classifier/bayes/NaiveBayes; -> Start. Note down the accuracy
     
     * Open Weka Software> Explorer> OpenFile> Select: 'features_nom_j48.csv'
