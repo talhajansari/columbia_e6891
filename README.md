@@ -18,7 +18,7 @@ There is, however, a third approach too, a reduced data set containing only the 
 
 #Step by step Instructions:
 1. Clone the Github repository to your local computer
-* Download the zipped file *bird_sounds_data_reduced.zip* from *(still being uploaded)* and put it in the source folder (directory where the *script* folder is), unzip *bird_sounds_data_reduced.zip* and rename the unzipped folder *bird_sounds_data_reduced* to *bird_sounds_data*.
+* Download the zipped file *bird_sounds_data_reduced.zip* from *(https://drive.google.com/file/d/0B1Ywmwt5sCj3TWpLcTNobFU4MkU/edit?usp=sharing)* and put it in the source folder (directory where the *script* folder is), unzip *bird_sounds_data_reduced.zip* and rename the unzipped folder *bird_sounds_data_reduced* to *bird_sounds_data*.
 * Go to the directory named *scripts*
 * Open Matlab and run main_step1.m (wait for it to finish)
 * Run main_step2.py in Python
